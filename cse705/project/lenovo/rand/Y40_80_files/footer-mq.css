@@ -1,0 +1,1480 @@
+.footer-navigation-links-minor,
+.footer-social {
+  margin-top: 0;
+}
+
+.mainFooter .countrySelector-header,
+.mainFooter .newsletter-header {
+  font-size: 12.8px;
+  font-size: 0.8rem;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  margin-bottom: .2em;
+  text-transform: uppercase;
+  color: #555;
+  background: none;
+}
+
+.pageWrapper .newsletterSignup {
+  font-size: .75em;
+}
+
+.pageWrapper .newsletterSignup input {
+  margin: 0;
+}
+
+.pageWrapper .newsletterInput-wrapper {
+  background: #b8b8b8;
+}
+
+.pageWrapper .newsletterInput {
+  line-height: 0;
+  padding-right: 0 !important;
+  position: relative;
+}
+
+#footerSignUp.newsletterInput-button {
+  color: #ffffff;
+  background-color: #424242;
+  background-image: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  vertical-align: top;
+  width: auto;
+  padding: 0.3em .05em;
+  height: 2.2em;
+  font-family: Helvetica, Arial, sans-serif;
+  text-shadow: none;
+  border-color: #000;
+  font-weight: bold;
+}
+
+.pageWrapper .newsletterInput-text {
+  width: 100%;
+  font-size: 1em;
+  border: 1px solid #424242;
+  padding: 0 0.5em;
+  -webkit-appearance: none;
+  height: 2.6em;
+}
+
+.footer-icons-sprite,
+.footer-icons-facebook,
+.footer-icons-flickr,
+.footer-icons-googlePlus,
+.footer-icons-lenovoForums,
+.footer-icons-m-truste-logo,
+.footer-icons-pinterest,
+.footer-icons-truste-logo,
+.footer-icons-twitter,
+.footer-icons-youtube,
+.trusteValidation-icon,
+.footer-icons-bk,
+.footer-icons-instagram,
+.footer-icons-lenovoblog,
+.footer-icons-lenovoteam,
+.footer-icons-linkedin,
+.footer-icons-picasa {
+  background-image: url('/ISS_Static/WW/css/themes/owv3/images/footer-icons.png?v2');
+  background-repeat: no-repeat;
+}
+
+.footer-icons-facebook {
+  background-position: -61px 0;
+}
+
+.footer-icons-facebook:hover,
+.footer-icons-facebook.facebook-hover {
+  background-position: -61px -38px;
+}
+
+.footer-icons-flickr {
+  background-position: -61px -76px;
+}
+
+.footer-icons-flickr:hover,
+.footer-icons-flickr.flickr-hover {
+  background-position: -61px -114px;
+}
+
+.footer-icons-googlePlus {
+  background-position: -61px -152px;
+}
+
+.footer-icons-googlePlus:hover,
+.footer-icons-googlePlus.googlePlus-hover {
+  background-position: -61px -190px;
+}
+
+.footer-icons-lenovoForums {
+  background-position: -61px -228px;
+}
+
+.footer-icons-lenovoForums:hover,
+.footer-icons-lenovoForums.lenovoForums-hover {
+  background-position: -61px -266px;
+}
+
+.footer-icons-m-truste-logo {
+  background-position: -62px -304px;
+}
+
+.footer-icons-m-truste-logo:hover,
+.footer-icons-m-truste-logo.m-truste-logo-hover {
+  background-position: -62px -344px;
+}
+
+.footer-icons-pinterest {
+  background-position: -61px -384px;
+}
+
+.footer-icons-pinterest:hover,
+.footer-icons-pinterest.pinterest-hover {
+  background-position: -61px -422px;
+}
+
+.footer-icons-truste-logo,
+.trusteValidation-icon {
+  background-position: 0 -460px;
+}
+
+.footer-icons-truste-logo:hover,
+.trusteValidation-icon:hover,
+.footer-icons-truste-logo.truste-logo-hover {
+  background-position: 0 -495px;
+}
+
+.footer-icons-twitter {
+  background-position: -61px -530px;
+}
+
+.footer-icons-twitter:hover,
+.footer-icons-twitter.twitter-hover {
+  background-position: -61px -568px;
+}
+
+.footer-icons-youtube {
+  background-position: -61px -606px;
+}
+
+.footer-icons-youtube:hover,
+.footer-icons-youtube.youtube-hover {
+  background-position: -61px -644px;
+}
+
+.footer-icons-bk {
+  background-position: -61px -910px;
+}
+
+.footer-icons-bk:hover,
+.footer-icons-bk.bk-hover {
+  background-position: -61px -948px;
+}
+
+.footer-icons-instagram {
+  background-position: -61px -682px;
+}
+
+.footer-icons-instagram:hover,
+.footer-icons-instagram.instagram-hover {
+  background-position: -61px -720px;
+}
+
+.footer-icons-lenovoblog {
+  background-position: -61px -986px;
+}
+
+.footer-icons-lenovoblog:hover,
+.footer-icons-lenovoblog.lenovoblog-hover {
+  background-position: -61px -1024px;
+}
+
+.footer-icons-lenovoteam {
+  background-position: -61px -1062px;
+}
+
+.footer-icons-lenovoteam:hover,
+.footer-icons-lenovoteam.lenovoteam-hover {
+  background-position: -61px -1100px;
+}
+
+.footer-icons-linkedin {
+  background-position: -61px -834px;
+}
+
+.footer-icons-linkedin:hover,
+.footer-icons-linkedin.linkedin-hover {
+  background-position: -61px -872px;
+}
+
+.footer-icons-picasa {
+  background-position: -61px -758px;
+}
+
+.footer-icons-picasa:hover,
+.footer-icons-picasa.picasa-hover {
+  background-position: -61px -796px;
+}
+
+.new-social-icons-sprite,
+.new-social-icons-bk,
+.new-social-icons-instagram,
+.new-social-icons-lenovo-blog,
+.new-social-icons-lenovo-team,
+.new-social-icons-linkedin,
+.new-social-icons-picasa {
+  background-image: url('/ISS_Static/WW/css/themes/owv3/images/footer-icons.png?v2');
+  background-repeat: no-repeat;
+}
+
+.new-social-icons-bk {
+  background-position: 0 0;
+}
+
+.new-social-icons-bk:hover,
+.new-social-icons-bk.bk-hover {
+  background-position: 0 -38px;
+}
+
+.new-social-icons-instagram {
+  background-position: 0 -76px;
+}
+
+.new-social-icons-instagram:hover,
+.new-social-icons-instagram.instagram-hover {
+  background-position: 0 -114px;
+}
+
+.new-social-icons-lenovo-blog {
+  background-position: 0 -152px;
+}
+
+.new-social-icons-lenovo-blog:hover,
+.new-social-icons-lenovo-blog.lenovo-blog-hover {
+  background-position: 0 -190px;
+}
+
+.new-social-icons-lenovo-team {
+  background-position: 0 -228px;
+}
+
+.new-social-icons-lenovo-team:hover,
+.new-social-icons-lenovo-team.lenovo-team-hover {
+  background-position: 0 -266px;
+}
+
+.new-social-icons-linkedin {
+  background-position: 0 -304px;
+}
+
+.new-social-icons-linkedin:hover,
+.new-social-icons-linkedin.linkedin-hover {
+  background-position: 0 -342px;
+}
+
+.new-social-icons-picasa {
+  background-position: 0 -380px;
+}
+
+.new-social-icons-picasa:hover,
+.new-social-icons-picasa.picasa-hover {
+  background-position: 0 -418px;
+}
+
+.footer-navigation-social {
+  clear: none;
+  margin: 1.5em 0 0 1.5em;
+}
+
+footer .social-link {
+  display: block;
+  height: 33px;
+  width: 33px;
+  line-height: 0;
+}
+
+footer .social ul {
+  height: 33px;
+}
+
+.js .pageWrapper .countrySelector-wrapper {
+  height: 31px;
+  width: 22em;
+}
+
+.js .pageWrapper .countrySelector {
+  font-size: 14.4px;
+  font-size: 0.9rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  color: #222222;
+  margin: 0;
+  padding: 0.4em 3.25em 0.4em 2.5em;
+  width: 25em;
+  height: 31px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.js .pageWrapper .countrySelector:hover {
+  cursor: pointer;
+}
+
+.js .pageWrapper .countrySelector option {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+div.countrySelector-flag {
+  height: 1.85em;
+  width: 1.85em;
+  float: left;
+  margin-bottom: -1.85em;
+  background: url('/ISS_Static/WW/css/themes/owv3/images/Flag-Footer.png') no-repeat left center;
+  overflow: hidden;
+}
+
+div.countrySelector-flag.flag-DZ {
+  background-position: 0px 0px;
+}
+
+div.countrySelector-flag.flag-AO {
+  background-position: -31px 0px;
+}
+
+div.countrySelector-flag.flag-AR {
+  background-position: -62px 0px;
+}
+
+div.countrySelector-flag.flag-AU {
+  background-position: -93px 0px;
+}
+
+div.countrySelector-flag.flag-AT {
+  background-position: -124px 0px;
+}
+
+div.countrySelector-flag.flag-BH {
+  background-position: -155px 0px;
+}
+
+div.countrySelector-flag.flag-BD {
+  background-position: -186px 0px;
+}
+
+div.countrySelector-flag.flag-BE {
+  background-position: -217px 0px;
+}
+
+div.countrySelector-flag.flag-BE {
+  background-position: -248px 0px;
+}
+
+div.countrySelector-flag.flag-BJ {
+  background-position: -279px 0px;
+}
+
+div.countrySelector-flag.flag-BO {
+  background-position: -310px 0px;
+}
+
+div.countrySelector-flag.flag-BW {
+  background-position: -341px 0px;
+}
+
+div.countrySelector-flag.flag-BR {
+  background-position: 0px -31px;
+}
+
+div.countrySelector-flag.flag-BG {
+  background-position: -31px -31px;
+}
+
+div.countrySelector-flag.flag-BF {
+  background-position: -62px -31px;
+}
+
+div.countrySelector-flag.flag-BI {
+  background-position: -93px -31px;
+}
+
+div.countrySelector-flag.flag-CM {
+  background-position: -124px -31px;
+}
+
+div.countrySelector-flag.flag-CA {
+  background-position: -155px -31px;
+}
+
+div.countrySelector-flag.flag-CA {
+  background-position: -186px -31px;
+}
+
+div.countrySelector-flag.flag-CV {
+  background-position: -217px -31px;
+}
+
+div.countrySelector-flag.flag-CF {
+  background-position: -248px -31px;
+}
+
+div.countrySelector-flag.flag-TD {
+  background-position: -279px -31px;
+}
+
+div.countrySelector-flag.flag-CL {
+  background-position: -310px -31px;
+}
+
+div.countrySelector-flag.flag-CN {
+  background-position: -341px -31px;
+}
+
+div.countrySelector-flag.flag-CO {
+  background-position: 0px -62px;
+}
+
+div.countrySelector-flag.flag-KM {
+  background-position: -31px -62px;
+}
+
+div.countrySelector-flag.flag-CD {
+  background-position: -62px -62px;
+}
+
+div.countrySelector-flag.flag-CD {
+  background-position: -93px -62px;
+}
+
+div.countrySelector-flag.flag-CI {
+  background-position: -124px -62px;
+}
+
+div.countrySelector-flag.flag-HR {
+  background-position: -155px -62px;
+}
+
+div.countrySelector-flag.flag-CZ {
+  background-position: -186px -62px;
+}
+
+div.countrySelector-flag.flag-DK {
+  background-position: -217px -62px;
+}
+
+div.countrySelector-flag.flag-DE {
+  background-position: -248px -62px;
+}
+
+div.countrySelector-flag.flag-DJ {
+  background-position: -279px -62px;
+}
+
+div.countrySelector-flag.flag-EC {
+  background-position: -310px -62px;
+}
+
+div.countrySelector-flag.flag-EG {
+  background-position: -341px -62px;
+}
+
+div.countrySelector-flag.flag-GQ {
+  background-position: 0px -93px;
+}
+
+div.countrySelector-flag.flag-ER {
+  background-position: -31px -93px;
+}
+
+div.countrySelector-flag.flag-EE {
+  background-position: -62px -93px;
+}
+
+div.countrySelector-flag.flag-ET {
+  background-position: -93px -93px;
+}
+
+div.countrySelector-flag.flag-FI {
+  background-position: -124px -93px;
+}
+
+div.countrySelector-flag.flag-FR {
+  background-position: -155px -93px;
+}
+
+div.countrySelector-flag.flag-GA {
+  background-position: -186px -93px;
+}
+
+div.countrySelector-flag.flag-GM {
+  background-position: -217px -93px;
+}
+
+div.countrySelector-flag.flag-GH {
+  background-position: -248px -93px;
+}
+
+div.countrySelector-flag.flag-GR {
+  background-position: -279px -93px;
+}
+
+div.countrySelector-flag.flag-GN {
+  background-position: -310px -93px;
+}
+
+div.countrySelector-flag.flag-GW {
+  background-position: -341px -93px;
+}
+
+div.countrySelector-flag.flag-HK {
+  background-position: 0px -124px;
+}
+
+div.countrySelector-flag.flag-HK {
+  background-position: -31px -124px;
+}
+
+div.countrySelector-flag.flag-HU {
+  background-position: -62px -124px;
+}
+
+div.countrySelector-flag.flag-IN {
+  background-position: -93px -124px;
+}
+
+div.countrySelector-flag.flag-ID {
+  background-position: -124px -124px;
+}
+
+div.countrySelector-flag.flag-IE {
+  background-position: -155px -124px;
+}
+
+div.countrySelector-flag.flag-IL {
+  background-position: -186px -124px;
+}
+
+div.countrySelector-flag.flag-IT {
+  background-position: -217px -124px;
+}
+
+div.countrySelector-flag.flag-JP {
+  background-position: -248px -124px;
+}
+
+div.countrySelector-flag.flag-JO {
+  background-position: -279px -124px;
+}
+
+div.countrySelector-flag.flag-KZ {
+  background-position: -310px -124px;
+}
+
+div.countrySelector-flag.flag-KE {
+  background-position: -341px -124px;
+}
+
+div.countrySelector-flag.flag-KR {
+  background-position: 0px -155px;
+}
+
+div.countrySelector-flag.flag-KW {
+  background-position: -31px -155px;
+}
+
+div.countrySelector-flag.flag-LV {
+  background-position: -62px -155px;
+}
+
+div.countrySelector-flag.flag-LB {
+  background-position: -93px -155px;
+}
+
+div.countrySelector-flag.flag-LS {
+  background-position: -124px -155px;
+}
+
+div.countrySelector-flag.flag-LR {
+  background-position: -155px -155px;
+}
+
+div.countrySelector-flag.flag-LY {
+  background-position: -186px -155px;
+}
+
+div.countrySelector-flag.flag-LT {
+  background-position: -217px -155px;
+}
+
+div.countrySelector-flag.flag-MG {
+  background-position: -248px -155px;
+}
+
+div.countrySelector-flag.flag-MW {
+  background-position: -279px -155px;
+}
+
+div.countrySelector-flag.flag-MY {
+  background-position: -310px -155px;
+}
+
+div.countrySelector-flag.flag-ML {
+  background-position: -341px -155px;
+}
+
+div.countrySelector-flag.flag-MR {
+  background-position: 0px -186px;
+}
+
+div.countrySelector-flag.flag-MU {
+  background-position: -31px -186px;
+}
+
+div.countrySelector-flag.flag-MX {
+  background-position: -62px -186px;
+}
+
+div.countrySelector-flag.flag-MA {
+  background-position: -93px -186px;
+}
+
+div.countrySelector-flag.flag-MZ {
+  background-position: -124px -186px;
+}
+
+div.countrySelector-flag.flag-MM {
+  background-position: -155px -186px;
+}
+
+div.countrySelector-flag.flag-NA {
+  background-position: -186px -186px;
+}
+
+div.countrySelector-flag.flag-NL {
+  background-position: -217px -186px;
+}
+
+div.countrySelector-flag.flag-NZ {
+  background-position: -248px -186px;
+}
+
+div.countrySelector-flag.flag-NE {
+  background-position: -279px -186px;
+}
+
+div.countrySelector-flag.flag-NG {
+  background-position: -310px -186px;
+}
+
+div.countrySelector-flag.flag-NO {
+  background-position: -341px -186px;
+}
+
+div.countrySelector-flag.flag-OM {
+  background-position: 0px -217px;
+}
+
+div.countrySelector-flag.flag-PK {
+  background-position: -31px -217px;
+}
+
+div.countrySelector-flag.flag-PY {
+  background-position: -62px -217px;
+}
+
+div.countrySelector-flag.flag-PE {
+  background-position: -93px -217px;
+}
+
+div.countrySelector-flag.flag-PH {
+  background-position: -124px -217px;
+}
+
+div.countrySelector-flag.flag-PL {
+  background-position: -155px -217px;
+}
+
+div.countrySelector-flag.flag-PT {
+  background-position: -186px -217px;
+}
+
+div.countrySelector-flag.flag-QA {
+  background-position: -217px -217px;
+}
+
+div.countrySelector-flag.flag-RE {
+  background-position: -248px -217px;
+}
+
+div.countrySelector-flag.flag-RO {
+  background-position: -279px -217px;
+}
+
+div.countrySelector-flag.flag-RU {
+  background-position: -310px -217px;
+}
+
+div.countrySelector-flag.flag-RW {
+  background-position: -341px -217px;
+}
+
+div.countrySelector-flag.flag-SH {
+  background-position: 0px -248px;
+}
+
+div.countrySelector-flag.flag-ST {
+  background-position: -31px -248px;
+}
+
+div.countrySelector-flag.flag-SA {
+  background-position: -62px -248px;
+}
+
+div.countrySelector-flag.flag-SN {
+  background-position: -93px -248px;
+}
+
+div.countrySelector-flag.flag-RS {
+  background-position: -124px -248px;
+}
+
+div.countrySelector-flag.flag-SC {
+  background-position: -155px -248px;
+}
+
+div.countrySelector-flag.flag-SL {
+  background-position: -186px -248px;
+}
+
+div.countrySelector-flag.flag-SG {
+  background-position: -217px -248px;
+}
+
+div.countrySelector-flag.flag-SK {
+  background-position: -248px -248px;
+}
+
+div.countrySelector-flag.flag-SI {
+  background-position: -279px -248px;
+}
+
+div.countrySelector-flag.flag-SO {
+  background-position: -310px -248px;
+}
+
+div.countrySelector-flag.flag-ZA {
+  background-position: -341px -248px;
+}
+
+div.countrySelector-flag.flag-SS {
+  background-position: 0px -279px;
+}
+
+div.countrySelector-flag.flag-ES {
+  background-position: -31px -279px;
+}
+
+div.countrySelector-flag.flag-LK {
+  background-position: -62px -279px;
+}
+
+div.countrySelector-flag.flag-SD {
+  background-position: -93px -279px;
+}
+
+div.countrySelector-flag.flag-SZ {
+  background-position: -124px -279px;
+}
+
+div.countrySelector-flag.flag-SE {
+  background-position: -155px -279px;
+}
+
+div.countrySelector-flag.flag-CH {
+  background-position: -186px -279px;
+}
+
+div.countrySelector-flag.flag-CH {
+  background-position: -217px -279px;
+}
+
+div.countrySelector-flag.flag-TW {
+  background-position: -248px -279px;
+}
+
+div.countrySelector-flag.flag-TZ {
+  background-position: -279px -279px;
+}
+
+div.countrySelector-flag.flag-TH {
+  background-position: -310px -279px;
+}
+
+div.countrySelector-flag.flag-TG {
+  background-position: -341px -279px;
+}
+
+div.countrySelector-flag.flag-TN {
+  background-position: 0px -310px;
+}
+
+div.countrySelector-flag.flag-TR {
+  background-position: -31px -310px;
+}
+
+div.countrySelector-flag.flag-UG {
+  background-position: -62px -310px;
+}
+
+div.countrySelector-flag.flag-UA {
+  background-position: -93px -310px;
+}
+
+div.countrySelector-flag.flag-AE {
+  background-position: -124px -310px;
+}
+
+div.countrySelector-flag.flag-GB {
+  background-position: -155px -310px;
+}
+
+div.countrySelector-flag.flag-US {
+  background-position: -186px -310px;
+}
+
+div.countrySelector-flag.flag-UY {
+  background-position: -217px -310px;
+}
+
+div.countrySelector-flag.flag-VE {
+  background-position: -248px -310px;
+}
+
+div.countrySelector-flag.flag-VN {
+  background-position: -279px -310px;
+}
+
+div.countrySelector-flag.flag-EH {
+  background-position: -310px -310px;
+}
+
+div.countrySelector-flag.flag-ZM {
+  background-position: -341px -310px;
+}
+
+div.countrySelector-flag.flag-ZW {
+  background-position: 0px -341px;
+}
+
+.mainFooter .footer-navigation {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #BCBCBC;
+  clear: left;
+  padding: 2em 1.9em 2em 2em;
+  position: relative;
+}
+
+.mainFooter .footer-navigation a:hover {
+  text-decoration: underline;
+}
+
+.mainFooter .footer-navigation-links-title {
+  font-size: 12.8px;
+  font-size: 0.8rem;
+  color: #414141;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 0;
+}
+
+.mainFooter .footer-navigation-links-title:hover {
+  cursor: pointer;
+}
+
+.mainFooter .footer-navigation-links-title::before,
+.mainFooter .footer-navigation-links-title:before {
+  content: "";
+  display: inline-block;
+  color: #434343;
+  width: 19px;
+  margin-right: 0.5em;
+  margin-left: -1.5em;
+  font-size: 1.3em;
+  top: 4px;
+  height: 19px;
+  background-size: 100%;
+}
+
+.mainFooter .footer-navigation-links-title.footer-nav-list-open:before {
+  background-image: url('/ISS_Static/WW/css/themes/owv3/images//minus.png?1427918492');
+}
+
+.mainFooter .footer-navigation-links-title.footer-nav-list-collapsed:before {
+  background-image: url('/ISS_Static/WW/css/themes/owv3/images/plus.png?1427918512');
+}
+
+/*IE TARGETING */
+
+.no-smil .footer-navigation-links-title::before,
+.no-smil .footer-navigation-links-title:before {
+  margin-left: -1.15em;
+}
+
+.footer-navigation-links-list {
+  margin-bottom: 1em;
+}
+
+.footer-navigation-links-list li {
+  line-height: 1.4;
+}
+
+.footer-navigation-links-list a {
+  font-size: 12.8px;
+  font-size: 0.8rem;
+  color: #373737;
+}
+
+.mainFooter .footer-bottomBar {
+  font-size: 11.2px;
+  font-size: 0.7rem;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #BCBCBC;
+  color: #373737;
+  padding: 0 5% 15px 5%;
+}
+
+.mainFooter .footer-bottomBar a {
+  color: #373737;
+}
+
+.mainFooter .footer-bottomBar .footer-bottomBar-wrapper {
+  width: 100%;
+  padding-top: 5px;
+}
+
+.footer-bottomBar-wrapper small,
+.footer-bottomBar-wrapper .footer-bottomBar-nav {
+  float: left;
+}
+
+div#truste.block {
+  margin: -5px 0 0 0;
+  padding: 0;
+  float: right;
+  display: none;
+}
+
+div#truste.block.trust-US,
+div#truste.block.trust-CA,
+div#truste.block.trust-MX,
+div#truste.block.trust-CO {
+  display: block;
+}
+
+div#truste.block a {
+  display: block;
+}
+
+div#truste.block .footer-icons-truste-logo {
+  width: 94px;
+  height: 30px;
+}
+
+/*new style added for truste logo*/
+
+div#truste.block .trusteValidation-icon {
+  width: 94px;
+  height: 30px;
+}
+
+div#truste.block .footer-icons-m-truste-logo {
+  width: 32px;
+  height: 35px;
+}
+
+div#truste.block a,
+div#truste.block a:hover,
+div#truste.block a:visited {
+  margin-right: 0;
+}
+
+/* clears */
+
+@media (min-width: 35em) {
+  .pageWrapper .footer-navigation-newsletter,
+  .pageWrapper .footer-navigation-social {
+    float: left;
+  }
+
+  .pageWrapper .footer-navigation-countrySelector {
+    float: right;
+  }
+
+  .js .countrySelector-wrapper {
+    margin: 0;
+  }
+
+  .pageWrapper .footer-navigation-links {
+    margin-top: 0;
+    float: left;
+    width: 100%;
+  }
+
+  .pageWrapper .footer-navigation-column-4 > li {
+    width: 20%;
+    margin-left: 5%;
+    max-width: 11em;
+  }
+
+  .pageWrapper .footer-navigation-column-4 > li:first-child {
+    margin-left: 25px;
+  }
+
+  .pageWrapper .footer-navigation-column-5 > li {
+    width: 15%;
+    margin-left: 5%;
+  }
+
+  .pageWrapper .footer-navigation-column-5 > li:first-child {
+    margin-left: 25px;
+  }
+
+  .pageWrapper .footer-navigation-column-6 > li {
+    width: 12%;
+    margin-left: 5%;
+  }
+
+  .pageWrapper .footer-navigation-column-6 > li:first-child {
+    margin-left: 25px;
+  }
+
+  .pageWrapper .footer-navigation-links-list {
+    display: inline-block;
+    float: left;
+    margin-top: 1.8em;
+    margin-bottom: 0;
+  }
+
+  .pageWrapper .footer-navigation-links-list ul {
+    margin-left: .2em;
+  }
+
+  .mainFooter .footer-navigation {
+    padding: 2em 1.9em 2em 2em;
+  }
+
+  .pageWrapper .footer-navigation-links-title:before {
+    position: relative;
+  }
+
+  .mainFooter .pageWrapper,
+  footer,
+  .pageWrapper .footer-navigation-links ul,
+  .pageWrapper .footer-bottomBar-wrapper,
+  .pageWrapper .footer-navigation-header {
+    *zoom: 1;
+  }
+
+  .mainFooter .pageWrapper:after,
+  footer:after,
+  .pageWrapper .footer-navigation-links ul:after,
+  .pageWrapper .footer-bottomBar-wrapper:after,
+  .pageWrapper .footer-navigation-header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@media (max-width: 35em) {
+  .footer-navigation-newsletter {
+    margin-left: 1em;
+    width: 90%;
+  }
+
+  .footer-navigation-social,
+  .footer-navigation-countrySelector {
+    margin: 1em auto;
+    width: 90%;
+  }
+
+  .footer-navigation-links-minor,
+  .footer-social {
+    margin: 0;
+  }
+
+  .js .countrySelector-wrapper {
+    width: 100%;
+    margin: 0;
+  }
+
+  .js .countrySelector {
+    width: 40em;
+  }
+
+  .footer-navigation-links {
+    margin: 0;
+  }
+
+  .mainFooter .footer-navigation {
+    padding: 0;
+  }
+
+  .footer-navigation-links-title {
+    font-size: 1.1em;
+  }
+
+  .footer-navigation-links-list {
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 3% 5% 3% 9%;
+    border-bottom: 1px solid #000;
+  }
+
+  .footer-navigation-links-list:first-child {
+    border-top: 1px solid #000;
+  }
+
+  .footer-navigation-links-title:before {
+    position: relative;
+  }
+
+  .footer-navigation-links-title.footer-nav-list-open:before {
+    line-height: .9em;
+    top: 3px;
+    font-size: .8em;
+  }
+
+  .footer-navigation-links-title.footer-nav-list-collapsed:before {
+    line-height: 1em;
+    top: 3px;
+    font-size: .8em;
+  }
+
+  .no-smil .footer-navigation-links-list {
+    padding-left: 11%;
+  }
+
+  .mainFooter .footer-bottomBar {
+    padding: 2% 5%;
+    margin-top: 0;
+  }
+
+  .footer-navigation-header {
+    padding-top: 1em;
+  }
+}
+
+@media (max-width: 62em) and (min-width: 37em) {
+  .footer-navigation-social {
+    clear: left;
+    margin: 1.1em 0 0 0;
+  }
+}
+
+@media (max-width: 37em) and (min-width: 35em) {
+  .footer-navigation-social {
+    clear: left;
+    margin: 1.1em 0 0 0;
+  }
+
+  .footer-navigation-column-5 > li,
+  .footer-navigation-column-6 > li {
+    width: 26%;
+    margin-left: 6%;
+  }
+
+  .footer-navigation-column-5 > li:nth-child(4),
+  .footer-navigation-column-5 > li:first-child,
+  .footer-navigation-column-6 > li:nth-child(4),
+  .footer-navigation-column-6 > li:first-child {
+    margin-left: 25px;
+  }
+
+  .footer-navigation-column-5 > li.footer-navigation-links-list:nth-child(4),
+  .footer-navigation-column-6 > li.footer-navigation-links-list:nth-child(4) {
+    clear: left;
+  }
+}
+
+@media (max-width: 20em) {
+  footer .social ul li {
+    margin-right: -2px;
+  }
+}
+
+@media (max-width: 23em) {
+  footer .social ul li {
+    margin-bottom: 5px;
+  }
+
+  .footer-navigation-countrySelector {
+    margin: 2.5em auto 1em auto;
+  }
+}
+
+@media (max-width: 62em) and (min-width: 37.5em) {
+  .footer-navigation-countrySelector {
+    margin: -3.4em 0 0 0;
+  }
+}
+
+@media (max-width: 45em) and (min-width: 35em) {
+  .footer-navigation-countrySelector {
+    float: left;
+    clear: left;
+    margin: .80em 0 0 0;
+  }
+}
+
+@media (max-width: 25em) {
+  .js .countrySelector {
+    width: 30em;
+  }
+
+  .footer-navigation-links-list {
+    padding-left: 11%;
+  }
+
+  .no-smil .footer-navigation-links-list {
+    padding-left: 14%;
+  }
+}
+
+@media (min-width: 50em) {
+  .footer-navigation {
+    overflow: hidden;
+    *zoom: 1;
+    padding: 2em 5% 2em;
+  }
+}
+
+@media (min-width: 70em) {
+  /* line 13, ../sass/_footer-columns.scss */
+
+  .footer-navigation-links {
+    margin-top: 0;
+    float: left;
+    width: 100%;
+  }
+
+  /* line 132, ../sass/_footer-columns.scss */
+
+  .lt-ie8 .footer-navigation-links-list {
+    width: 24.5%;
+  }
+}
+
+@media (max-width: 32em) {
+  .footer-navigation-links-list {
+    padding-left: 9%;
+  }
+
+  .no-smil .footer-navigation-links-list {
+    padding-left: 12%;
+  }
+}
+
+@media (max-width: 27em) {
+  .footer-navigation-links-list {
+    padding-left: 10%;
+  }
+
+  .no-smil .footer-navigation-links-list {
+    padding-left: 13%;
+  }
+}
+
+@media (max-width: 22em) {
+  .footer-navigation-links-list {
+    padding-left: 12%;
+  }
+
+  .no-smil .footer-navigation-links-list {
+    padding-left: 15%;
+  }
+}
+
+@media (max-width: 75em) and (min-width: 35em) {
+  footer .footer-navigation-links-list:nth-child(3) {
+    clear: none;
+  }
+}
+
+@media (max-width: 55em) and (min-width: 35em) {
+  .footer-navigation-column-4 > li {
+    width: 40%;
+    margin-left: 10%;
+  }
+
+  .footer-navigation-column-4 > li:nth-child(3),
+  .footer-navigation-column-4 > li:first-child {
+    margin-left: 25px;
+  }
+
+  .footer-navigation-column-4 > li.footer-navigation-links-list:nth-child(3) {
+    clear: left;
+  }
+}
+
+@media (max-width: 65em) and (min-width: 50em) {
+  .footer-navigation-column-5 > li {
+    width: 25%;
+    margin-left: 5%;
+  }
+
+  .footer-navigation-column-5 > li:nth-child(4),
+  .footer-navigation-column-5 > li:first-child {
+    margin-left: 25px;
+  }
+
+  .footer-navigation-column-5 > li.footer-navigation-links-list:nth-child(4) {
+    clear: left;
+  }
+}
+
+@media (max-width: 50em) and (min-width: 37em) {
+  .footer-navigation-column-6 > li,
+  .footer-navigation-column-5 > li {
+    width: 27%;
+    margin-left: 5%;
+  }
+
+  .footer-navigation-column-6 > li:nth-child(4),
+  .footer-navigation-column-6 > li:first-child,
+  .footer-navigation-column-5 > li:nth-child(4),
+  .footer-navigation-column-5 > li:first-child {
+    margin-left: 25px;
+  }
+
+  .footer-navigation-column-5 > li.footer-navigation-links-list:nth-child(4),
+  .footer-navigation-column-6 > li.footer-navigation-links-list:nth-child(4) {
+    clear: left;
+  }
+}
+
+@media (max-width: 77em) and (min-width: 50em) {
+  .footer-navigation-column-6 > li {
+    width: 25%;
+    margin-left: 5%;
+  }
+
+  .footer-navigation-column-6 > li:nth-child(4),
+  .footer-navigation-column-6 > li:first-child {
+    margin-left: 25px;
+  }
+
+  .footer-navigation-column-6 > li.footer-navigation-links-list:nth-child(4) {
+    clear: left;
+  }
+}
+
+@media (min-width: 76.75em) {
+  .mainFooter .footer-bottomBar .footer-bottomBar-wrapper {
+    width: 105.5em;
+  }
+}
+
+@media (max-width: 23em) {
+  .footer-bottomBar-wrapper nav a {
+    float: left;
+  }
+
+  .footer-bottomBar-wrapper nav a:nth-child(3) {
+    clear: left;
+  }
+}
+
+@media (max-width: 40em) {
+  .footer-bottomBar-nav {
+    clear: left;
+  }
+}
+
+@media (max-width: 55em) {
+  footer .footer-navigation-links-minor {
+    float: right;
+    margin-top: -2.5em;
+  }
+
+  footer .footer-navigation-links-minor > #oo_float {
+    float: right;
+  }
+}
+
+.pageWrapper .newsletterSignup {
+  background: none !important;
+}
+
+.pageWrapper .newsletterInput-wrapper {
+  margin: 0;
+  padding: 0 !important;
+}
+
+.pageWrapper .footer-navigation-newsletter {
+  width: 19em;
+}
+
+.pageWrapper .newsletterSignup {
+  margin-left: 0px;
+}
+
+.pageWrapper .newsletterSignup h2 {
+  padding: 0;
+}
+
+.pageWrapper .social li {
+  margin-right: 2px;
+}
+
+@media (min-width: 35em) {
+  .footer-navigation-column-3 > li:first-child {
+    margin-left: 25px;
+  }
+}
+
+@media (min-width: 35em) {
+  .footer-navigation-column-3 > li {
+    width: 20%;
+    margin-left: 5%;
+    max-width: 11em;
+  }
+}
+
+@media (min-width: 35em) {
+  .footer-navigation-column-2 > li:first-child {
+    margin-left: 25px;
+  }
+}
+
+@media (min-width: 35em) {
+  .footer-navigation-column-2 > li {
+    width: 20%;
+    margin-left: 5%;
+    max-width: 11em;
+  }
+}
+
+@media (min-width: 35em) {
+  .footer-navigation-column-1 > li:first-child {
+    margin-left: 25px;
+  }
+}
+
+@media (min-width: 35em) {
+  .footer-navigation-column-1 > li {
+    width: 20%;
+    margin-left: 5%;
+    max-width: 11em;
+  }
+}
