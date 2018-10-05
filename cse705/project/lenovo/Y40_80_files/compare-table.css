@@ -1,0 +1,3 @@
+/*CSS for removing bullets for text items in compare table*/
+.compareTable-textItem ul{padding: 0;}
+.compareTable-textItem ul li{list-style: none;}

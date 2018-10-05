@@ -1,0 +1,31 @@
+/*Splitter page offcanvas right espots*/
+.espots-group > ul,.espots-group > ul li ul{padding:0;list-style:none;margin:0}
+.espots-group > ul  > li > ul  > li{margin:0 0 0.7em 0;}
+
+@media (min-width: 65em){
+.espots-group > ul {width:12em;top:400px;right:1em;position:absolute;padding:0;z-index:1;}
+.espots-group > ul  li{display:block;}
+.espots-group > ul li .splitter-offCanvas-bar_3-right-innerWrapper{position:static;}
+}
+.subseries-promo-bar {font-size: 0.9rem; padding: 0px 20px; line-height: 2em;}
+.subseries-promo-bar > div {background: none;-webkit-box-shadow: none;box-shadow: none;width: 100%;height: auto;-moz-box-shadow: none;line-height:20px;padding: 7px 0;}
+
+/*CSS for non templated espots module : Can be removed later */
+#eSpots{float:left;width:12.5em;margin:0 0.7em;}
+.e-spot {border: 10px solid white;border-color: rgba(255,255,255,0.75);background-color: #cdd5d8;display: block;position: relative;width: 100%;line-height: 1.1;box-shadow: 0 0 10px rgba(0,0,0,0.4);margin: 7% 0;}
+.e-spot > img,.espotLink > img{position:absolute;}
+.e-spot img{max-width:100%;height:auto;position:absolute;}
+.e-spot .text h3{font-size:1.125em;text-transform: uppercase;color: #0078a6;}
+.e-spot .text {overflow: hidden;min-height: 90px;max-height: 386px;padding-right: 7px;background: #cdd5d8;}
+.e-spot h3 {margin-left: 80px;padding-top: 10px;font-size: 18px;font-family: lenovo-do-bold,Arial,sans-serif;line-height: 17px;text-transform: uppercase;color:#0078A6;}
+.e-spot .sub-title {margin-left: 80px;font-weight: bold;padding-top: 4px;color: black;text-transform: uppercase;font-size: 14px;line-height: 15px;word-wrap:break-word;}
+.e-spot .text p {margin: 0 0 0 80px;padding: 0 5px 5px 0;font-size: 12px;line-height: 1.2;color: #555;}
+.e-spot .ShopNow {height: 26px;padding-left: 80px;line-height: 26px;font-size: 13px;font-weight: bold;letter-spacing: 1px;text-transform: uppercase;background: #08638b;white-space:nowrap;color: white;}
+.e-spot .ShopNow ,.e-spot .ShopNow a {color: #fff;}
+.sign_up p {margin:0;font-family: arial;font-size: 12px;color: #fff;}
+.sign_up .ipt_box {border: 1px solid #cecece;height: 15px;margin: 5px 0 0;padding:10px 0!important;width: 99%;}
+.sign_up .btn {margin-top: 5px;text-align: right;}
+.productList #eSpots{width:100%;padding:20px 0 20px 20px;background:#efefef;margin:0;}
+.productList #eSpots .e-spot{float:left;width:94%;margin:0 0 0.8em 0;}
+.productList #eSpots .e-spot:last-child{margin:0;}
+@media (min-width:51em){.productList #eSpots .e-spot{width:32%;margin:0 0.8em 0 0;}}
