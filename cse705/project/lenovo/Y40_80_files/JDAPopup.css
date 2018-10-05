@@ -1,0 +1,109 @@
+#wishlistOverlay { width:700px; height:480px; display:none; }
+
+#view-wishlist #itemadded { margin-left:10px; width:680px; padding-top:10px;}
+#myaccount .e-spot { width: 194px;
+margin: 10px 0 0;
+padding: 10px; 
+}
+
+#myaccount .e-spot > img {
+position: absolute;
+width: 70px;
+height: 116px;
+}
+
+#myaccount .grid_5 {
+display: inline;
+float: left;
+position: relative;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+span#crumb2 {display:none;}
+#mastheadPageTitle {display:none;}
+
+#myaccount { width:700px; position:relative; margin:0px auto; text-align:left; }
+
+#myaccount #login #container-left {
+  width: 690px;
+  float: left;
+  border-bottom: thin solid #cecfce;
+  border-left: thin solid #cecfce;
+  border-right: thin solid #cecfce;
+  border-top: thin solid #cecfce;
+  position: relative;
+  margin-bottom:16px;
+}
+#myaccount #login #container-left .GreyBKGRD-header {
+  height: 40px;
+  width:690px;
+  background-color: #efefef;
+  border-bottom: thin solid #cecfce;
+  border-right: thin solid #cecfce;
+}
+#myaccount #login #container-left #SignInTitle {
+  background:transparent;
+  color: #555555;
+  font-weight:bold;
+  font-size:14px;
+  margin: 0 0 0 10px;
+  padding: 10px 0 0 0;
+  position: relative;
+  top: -5px;
+  text-transform:uppercase;
+}
+
+#myaccount #login #container-left #CreateAcctTitle {
+  background:transparent;
+  color: #555555;
+  font-size: 14px;
+  font-weight:bold;
+  padding: 5px 0 5px 0;
+  text-transform:uppercase;
+}
+
+#myaccount #systemErrorMsgTable { color: #dc291e; }
+#myaccount #login #container-left #signInElement {margin: 10px 50px 15px 10px; float: left;width:270px;}
+#myaccount #login #container-left #signInElement #SignInIntro {padding:14px 0px 0px 0px;}
+#myaccount #login #container-left #signInElement #SignInFields #SignInUserName {padding:15px 0px 0px 0px;}
+#myaccount #login #container-left #signInElement #SignInFields #SignInUserName input {width:230px;margin-top:3px;}
+#myaccount #login #container-left #signInElement #SignInFields #SignInPassWord {padding-top:10px;}
+#myaccount #login #container-left #signInElement #SignInFields #SignInPassWord input {width:230px;margin-top:3px;}
+#myaccount #login #container-left #signInElement #SignInFields #SignInButton {float:left;padding:10px 40px 0px 0px;}
+#myaccount #login #container-left #signInElement #SignInFields #SignInResetPassWord {float:left;clear:both;padding:10px 40px 0px 0px;}
+#myaccount #login #container-left #signInElement #SignInFields #SignInRememberMe {float:left;padding:0px 0px 0px 0px;position:relative;top:13px;}
+.SignInText {font-family: verdana,arial,sans-serif;font-size: 11px;}
+#myaccount #login #container-left #CreateAcctElement { float: right; width: 280px; margin-right:10px;}
+#myaccount #login #container-left #CreateAcctElement #CreateAcctIntro {padding:9px 0px 0px 0px;}
+#myaccount #login #container-left #CreateAcctElement #CreateAcctButton {float:left;clear:both;padding-top:10px;}
+#myaccount #login #container-left .SignInText {font-family: verdana,arial,sans-serif;font-size: 11px;}
+
+#myaccount #login #container-left #CreateAcctElement .e-spot { background: transparent; box-shadow: none; }
+
+#myaccount #systemErrorMsgTable { display:none; }
+
+#itemalreadyonwishlist { margin-top:10px; margin-bottom:10px; font-weight:bold; }
+#myaccount #login #container-left #CreateAcctPromo { padding-top:10px; }
+#myaccount #login #container-left #CreateAcctPromo strong { margin-left:80px; }
+
+#myaccount #headerimagetext { font-weight:bold; float:right; display:inline-block; text-align:center; width: 250px; margin-top: 20px; font-size: 24px; text-transform: uppercase; color:#dc291e; }
+
+/* #fancybox-content { border-top-width:0px !important; } */
+#fancybox-content.wishlistOverlay { border-top-width:0px !important; width: 46em !important; background:#fff !important; }
+#fancybox-content.wishlistOverlay div{text-align:left !important;}
+#fancybox-close.wishlistClose{right:-55px !important;}
+
+/* changes by Lara */
+#myaccount #login #container-left #CreateAcctTitle {
+  color: #555555;
+  font-size: 14px;
+  font-weight:bold;
+  margin: -22px 0 0 370px; /* 330px */
+  width: 270px; /* 330px */
+  padding: 0 0 0 0;
+  text-transform:uppercase;
+}
+#CreateAcctElement {position:relative;left:-30px;}
+#CreateAcctIntro {position:relative;top:16px;font-family: verdana,arial,sans-serif;font-size: 11px;}
+#CreateAcctButton {position:relative;top:15px;}

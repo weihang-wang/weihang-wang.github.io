@@ -1,0 +1,115 @@
+.wrap{position:relative; width:1180px; margin:0 auto;}
+.side_menu{float:left; width:190px;}
+.side_menu h3{height:40px; background:#9c3022; color:#fff; font-size:16px; line-height:40px; text-indent:17px;}
+.side_menu ul{border-bottom:2px solid #9c3022;}
+.side_menu li{position:relative; height:auto; min-height:40px; _height:40px; line-height:40px; border-left:2px solid #9c3022; border-right:2px solid #9c3022;}
+.side_menu li a:link, .side_menu li a:visited{display:block; padding-left:48px; color:#6d6d6d; font-weight:bold; text-decoration:none;}
+.side_menu li a:hover{text-decoration:underline;}
+.side_menu li.laptop a{background:url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/ico_laptop_off.png) no-repeat 6px 10px;}
+.side_menu li.tablet a{background:#e7e7e7 url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/ico_tablet_off.png) no-repeat 6px 10px;}
+.side_menu li.desktop a{background:#e7e7e7 url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/ico_desktop_off.png) no-repeat 6px 10px;}
+.side_menu li.workstation a{background:url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/ico_workstation_off.png) no-repeat 6px 10px;}
+.side_menu li.server a{background:url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/ico_server_off.png) no-repeat 6px 10px;}
+.side_menu li.clearance a{background:#e7e7e7 url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/ico_clearance_off.png) no-repeat 6px 10px;}
+.side_menu li.student a{background:url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/ico_student_off.png) no-repeat 6px 10px;}
+.side_menu li.laptop_on a{background:#dc291e url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/ico_laptop_on.png) no-repeat 6px 10px; color:#fff;}
+.side_menu li.tablet_on a{background:#dc291e url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/ico_tablet_on.png) no-repeat 6px 10px; color:#fff;}
+.side_menu li.desktop_on a{background:#dc291e url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/ico_desktop_on.png) no-repeat 6px 10px; color:#fff;}
+.side_menu li.workstation_on a{background:#dc291e url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/ico_workstation_on.png) no-repeat 6px 10px; color:#fff;}
+.side_menu li.server_on a{background:#dc291e url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/ico_server_on.png) no-repeat 6px 10px; color:#fff;}
+.side_menu li.clearance_on a{background:#dc291e url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/ico_clearance_on.png) no-repeat 6px 10px; color:#fff;}
+.side_menu li.student_on a{background:#dc291e url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/ico_student_on.png) no-repeat 6px 10px; color:#fff;}
+.side_menu li .ico_leftbar{display:none; width:12px; height:46px; position:absolute; background:url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/bg_menu_on.gif) no-repeat 0 0; left:-10px; *left:-12px;}
+.side_menu li.laptop_on .ico_leftbar,
+.side_menu li.tablet_on .ico_leftbar,
+.side_menu li.desktop_on .ico_leftbar,
+.side_menu li.workstation_on .ico_leftbar,
+.side_menu li.server_on .ico_leftbar,
+.side_menu li.clearance_on .ico_leftbar,
+.side_menu li.student_on .ico_leftbar{display:block; top:0;}
+.side_menu li.tablet a,
+.side_menu li.tablet_on a,
+.side_menu li.desktop a,
+.side_menu li.desktop_on a{height:40px; line-height:19px; font-weight:bold;}
+.side_menu li.laptop ul{display:none; height:0;}
+.side_menu li.laptop_on ul{display:block; height:auto; min-height:54px; _height:54px; border-bottom:0;}
+.side_menu li.laptop_on ul li{height:auto; min-height:27px; _height:27px; line-height:27px; border:0;}
+.side_menu li.laptop_on ul li a{height:auto; min-height:26px; _height:26px; padding-left:12px; background:#fff; background-image:none; border-bottom:1px solid #ccc; color:#009dd9; line-height:26px; font-weight:normal;}
+.side_menu li.clearance ul{display:none; height:0;}
+.side_menu li.clearance_on ul{display:block; height:auto; min-height:34px; _height:34px; border-bottom:0;}
+.side_menu li.clearance_on ul li{height:auto; min-height:31px; _height:31px; line-height:27px; border:0;}
+.side_menu li.clearance_on ul li a{height:auto; min-height:30px; _height:30px; padding-left:12px; background:#fff; background-image:none; border-bottom:1px solid #ccc; color:#009dd9; line-height:15px; font-weight:normal;}
+.side_menu li.desktop ul{display:none; height:0;}
+.side_menu li.desktop_on ul{display:block; height:auto; min-height:54px; _height:54px; border-bottom:0;}
+.side_menu li.desktop_on ul li{height:auto; min-height:27px; _height:27px; line-height:27px; border:0;}
+.side_menu li.desktop_on ul li a{height:auto; min-height:26px; _height:26px; padding-left:12px; background:#fff; background-image:none; border-bottom:1px solid #ccc; color:#009dd9; line-height:26px; font-weight:normal;}
+
+.main_container{float:left; width:980px; margin-bottom:30px; padding-left:10px; background:url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/bg_mainContainer.gif) repeat-y 0 0;}
+.deals_ad{width:760px; margin-bottom:5px;}
+.ecoupon_help{width:734px; height:28px; margin-bottom:5px; padding:0 12px; border:1px solid #c3c3c3; background:url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/bg_ecoupon.gif) repeat-x 0 0; color:#000; line-height:28px;}
+.ecoupon_help em{color:#ff8500; font-style:normal; font-weight:bold;}
+.ecoupon_help a:link{float:right; padding-left:18px; background:url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/ico_help.gif) no-repeat 0 8px; color:#009dd9;}
+
+.deals_content{width:980px;}
+.deals_content h2{clear:both; height:36px; padding-left:25px; background:url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/bg_title.gif) no-repeat 0 0; color:#fff; line-height:29px; font-size:16px;}
+
+.buy_from_lenovo{clear:both; position:relative; height:52px; margin-bottom:30px; padding-left:145px; border:1px solid #dcd9d9;}
+.buy_from_lenovo li{float:left; width:106px; height:52px; margin-left:50px;}
+.buy_from_lenovo li img{margin-top:12px;}
+.buy_from_lenovo li.title{position:absolute; top:-1px; left:-10px; width:155px; height:54px; margin:0; background:url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/img_buyFromLenovo.jpg) no-repeat 0 0; text-indent:-99999px;}
+.buy_from_lenovo li.more{position:absolute; bottom:1px; right:-10px; width:144px; height:39px; background:url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/bg_learnMore.gif) no-repeat 0 0;}
+.buy_from_lenovo li.more a{display:block; width:144px; height:26px; text-indent:-9999px;}
+
+.add_Xmas{height:84px!important; margin-left:10px; padding:5px 0; color:#009dd9; line-height:15px;}
+.add_Xmas a{float:left; height:29px; padding-left:37px; background:url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/2012/1113/ico_Xmas.png) no-repeat 0 0; color:#009dd9;}
+
+.item_specs{height:auto; min-height:18px; _height:18px; padding-left:35px;}
+.item_specs li{float:left; width:18px; height:18px; margin:0 10px; text-indent:-9999px; cursor:pointer;}
+.item_specs .cpu{background:url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/ico_cpu.gif) no-repeat 0 0;}
+.item_specs .os{background:url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/ico_os.gif) no-repeat 0 0;}
+.item_specs .screen{background:url(/ISS_Static/WW/ap/au/en/images/merchandising/specialoffers/common/ico_screen.gif) no-repeat 0 0;}
+.item_specs li .cpu_specs, .item_specs li .os_specs, .item_specs li .screen_specs{display:none;}
+
+/* old buy from lenovo content */
+.blfl{ width:650px; background:#fff; font-family:Arial, Helvetica, sans-serif;}
+.blfl .bd{ padding:0px 20px 10px; color:#444; text-align:left}
+.blfl dl{ margin:15px 0; padding:0;}
+.blfl dt{ font-size:16px; font-weight:bold; color:#dc291e;}
+.blfl dt img{ float:left; position:relative; top:-3px; left:-5px;}
+.blfl dd{ font-size:12px; margin:0; padding:0; padding-left:24px;}
+.blfl dd ul{ margin:8px 30px; padding:0;}
+.blfl dd span{ display:block; padding-top:8px;}
+#fancybox-title-outside{display:none}
+
+/* add Xmas accessory popup */
+.optionOffersPopup{width:600px; border:1px solid #777578; background:#fff;}
+.op-img{float: left;}
+.op-ul li input{float: left;}
+.accLabel{float: left;}
+
+.moreSpecList{display:none;}
+.optionOffersPopup{padding-bottom:0px; background:#efefef;}
+.optionOffersPopup .op-box-ul{border-bottom: 1px solid #C7C7C7; margin: 7px 15px 0;overflow: hidden; padding: 0 0 7px; zoom:1}
+.optionOffersPopup .first{padding: 5px;color:#000}
+.optionOffersPopup .op-ul{ float:left; padding-left:5px; width:490px}
+.optionOffersPopup .op-ul li{overflow:hidden; zoom:1; margin-bottom:5px;}
+.optionOffersPopup .op-ul .accLabel{float:left; width:460px; margin: -2px 0 0 4px; line-height:14px;}
+.optionOffersPopup a.button{ margin-left:80px; margin-top:10px;}
+.optionOffersPopup .titInfo{background:#fff; border-bottom:1px solid #848484;vertical-align:middel;}
+.optionOffersPopup .tableTitle{width:auto; padding-top:10px;}
+*+html .optionOffersPopup .op-ul input{margin-left:-3px;}
+
+.darkTitle .itemName{display:none;}
+
+/* Anjean add 2012-12-19 */
+.side_menu_placeholder{clear:both; height:0;}
+.sign_up_offer img{margin:5px 1px;}
+.logo_intel{position:absolute; top:-50px; left:400px;}
+
+/* Anjean add 2013-05-30 */
+.deals_content .viewModelSpecs1,
+.deals_content .viewModelSpecs2,
+.deals_content .viewModelSpecs3{cursor:pointer;}
+
+.afterecoupon-label span, .pricing .gst{font-size:12px;}
+a.button.shop{ border: 1px solid #206485; color: #fff; background: #4fb4e3; background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4fb4e3), color-stop(100%, #01618d)), #4fb4e3; background: -webkit-linear-gradient(top, #4fb4e3, #01618d), #4fb4e3; background: -moz-linear-gradient(top, #4fb4e3, #01618d), #4fb4e3; background: -o-linear-gradient(top, #4fb4e3, #01618d), #4fb4e3; background: linear-gradient(top, #4fb4e3, #01618d), #4fb4e3; text-shadow: 1px 1px 1px #111111;display:block; text-align: center; width:178px; padding:10px; }

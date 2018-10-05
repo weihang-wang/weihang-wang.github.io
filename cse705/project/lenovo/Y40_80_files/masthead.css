@@ -1,0 +1,160 @@
+/* Masthead
+---------------------------------------------------------------------- */
+.bar_1 .bar_1-tagline > span {
+	color: #fff;
+	font-size: .75em;
+	line-height: .75em;
+	margin: .5em 1.250em;
+	padding-left: 1.250em;
+	text-align: right;
+	font-family: "Segoe UI", sans-serif;
+	font-weight: bold;
+}
+
+.bar_3-logos {
+	float: right;
+	display: none;
+	margin-top: -1em;
+	margin-bottom: 0.5em;
+}
+
+.bar_3-logos img {
+	display: block;
+	/* commented it out per bug #988 max-width: 250px;*/
+}
+
+.bar_3-logos .shadow-divider {
+	background-image: url("//www.lenovo.com/images/onewebimages/common/strip-separator.png");
+	background-position: right center;
+	background-repeat: no-repeat;
+	float: left;
+	padding: 30px 20px;
+}
+
+.bar_3-logos .left {
+	float: left;
+	min-height: 60px;
+	min-width: 200px;
+	position: relative;
+}
+
+.bar_3-logos .right {
+	float: right;
+	min-height: 60px;
+	min-width: 200px;
+	position: relative;
+}
+
+.bar_3-logos .left > a,
+.bar_3-logos .right > a {
+	bottom: 0;
+	display: block;
+	position: absolute;
+}
+
+.messagebar {
+	background-color: #DC291E;
+	display: none;
+}
+
+.messagebar #floatingPopupDimmerLayer,
+.messagebar #floatingPopupWrapper,
+.messagebar .marketingCoupon,#floatingPopupWrapper {
+	display: none;
+}
+
+.messagebar .couponModal {
+	display: none;
+	padding: 10px;
+	text-align: center;
+}
+
+.messagebar .couponModal h2,
+.messagebar .couponModal h3,
+.messagebar .couponModal h4,
+.messagebar .couponModal h5 {
+	margin: 0;
+}
+
+@media (min-width: 63.5em) {
+	.bar_1 .bar_1-links {
+		float: left;
+		display:block;
+	}
+
+	.bar_1 .bar_1-link-number {
+		display: block;
+		line-height: 1.75em;
+	}
+
+	.bar_1-link-number > .text {
+		line-height: 0.85em;
+	}
+}	
+
+@media (min-width: 60em) {
+	.bar_1 .search-container {
+		float: none;
+	}
+}
+
+@media (min-width: 65em) {
+	.bar_1 .search-container {
+		float: right;
+	}
+
+	.bar_3-logos {
+		display: block;
+	}
+}
+
+/*Custom styles for contact us dropdown*/
+.generalMenu ol.generalList > li:first-child+li+li.child-level_2 .link-title{font-size:1.1em;}
+
+.generalMenu ol.generalList > li:first-child+li+li .child-level_2 .link-subtitle{color:#000;font-size:0.9em;}
+.generalMenu ol.generalList > li:nth-child(3) > ol .link-title{font-size:1.1em;}
+.generalMenu ol.generalList > li:nth-child(3) > ol .link-subtitle{color:#000;font-size:0.9em;}
+
+/*Bug fix for 886 to allow button to fit text */
+.searchInput-button {
+    width: 6.75em;
+}
+/*To Hide espots of canvas*/
+@media (max-width: 51em){
+li.espots {
+display: none;
+}
+}
+
+/*FP2063*/
+@media (max-width:51em){
+	.bar_3-logos {display:block; width:100%; text-align:center; margin:0.5em 0;}
+	.bar_3-logos .left, .bar_3-logos .shadow-divider { display:none;}
+	.bar_3-logos .right { float:none; display:inline-block;}
+	.bar_3-logos .right img {margin-left:4em; height:46px;}
+}
+
+@media (min-width:51em){
+	.productList.menuLevel_1 .link-wrapper {text-align: center;}
+}
+
+@media (min-width:51em) and (max-width:66em) {
+	.bar_3-logos .right img {margin-left:0;height:auto;}
+	#splitterPage .bar_3-logos, #brandPage .bar_3-logos, .bar_3-logos { display:block; width:100%; text-align:center; margin:0.5em 0;}
+	#splitterPage .bar_3-logos .right, #splitterPage  .bar_3-logos .shadow-divider, #splitterPage  .bar_3-logos .left, #brandPage .bar_3-logos .right, #brandPage .bar_3-logos .shadow-divider, #brandPage .bar_3-logos .left, .bar_3-logos .right, .bar_3-logos .shadow-divider, .bar_3-logos .left { display:inline-block; float:none;}
+	#splitterPage .bar_3-logos .left a, #brandPage .bar_3-logos .left a, .bar_3-logos .left a { top:0;}
+}
+
+/*FP2168 fix*/
+.nestedMenu li.is-expanded>.link-wrapper .link-hasChildren .link-title:after, .productList li.is-expanded>.link-wrapper .link-hasChildren .link-title:after, .nestedMenu .link-hasChildren .link-title:after, .productList .link-hasChildren .link-title:after{content: none!important;}
+.productList.menuLevel_2 .link-wrapper, .productList.menuLevel_3 .link-wrapper, .productList.menuLevel_4 .link-wrapper {text-align: left;}
+
+/*BZ1708 fix*/
+div#welcome-msg {
+  float: left;
+  padding: 10px 0 0 0;
+}
+#mastheadPageTitleMessaging div a {
+  float: right;
+  padding: 10px 0 0 0;
+}

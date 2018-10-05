@@ -1,0 +1,65 @@
+.productList .linkLevel_1 { padding: 1.2em .3em .8em 1em !important }
+
+.footer_column .block { margin-bottom: 10px }
+
+.footer_column .block .background { padding: 10px; background: none repeat scroll 0 0 #bbb }
+
+.footer_column .block * { display: block; position: relative }
+
+#email_sign_up_block.block { position: relative }
+
+#email_sign_up_block.block form#emailsignup { }
+
+#email_sign_up_block.block .banner { height: 30px; margin-left: -15px; margin-bottom: -3px }
+
+#email_sign_up_block.block .banner .text { padding: 4px 10px; color: #fff; font-family: 'LenovoDoBold', Arial, Helvetica, sans-serif; font-size: 16px; background: none repeat scroll 0 0 #dc291e; text-transform: uppercase }
+
+#email_sign_up_block.block .banner .text .box-text { background: none repeat scroll 0 0 #fff; color: #dc291e; display: inline; padding: 0 2px; text-transform: uppercase }
+
+#email_sign_up_block.block .banner .img { }
+
+#email_sign_up_block.block .banner .img img { width: 18px; height: 15px; left: -3px }
+
+#email_sign_up_block.block .background { }
+
+#email_sign_up_block.block .background .email-wrap { }
+
+#email_sign_up_block.block .background .email-wrap #email { font-size: 10px; color: #666; border: 1px solid #cecfce; height: 15px; margin: 1px -4px 0 0; padding: 3px 0 2px 3px; width: 130px }
+
+#email_sign_up_block.block .background .submit-wrap { float: right; margin-top: -23px }
+
+#social_follow_block.block { }
+
+#social_follow_block.block .background { background-color: transparent }
+
+#social_follow_block.block .follow-text { color: #000; text-transform: uppercase; font-weight: bold; margin-bottom: 5px }
+
+#social_follow_block.block .icon-wrap { height: 25px }
+
+#social_follow_block.block .icon-wrap .icon-list { height: 35px }
+
+#social_follow_block.block .icon-wrap .icon-list li { float: left; width: 28px }
+
+#social_follow_block.block .icon-wrap .icon-list li a { }
+
+#social_follow_block.block .icon-wrap .icon-list li a img { }
+
+#social_follow_block.block .addthis_32x32_style > a { width: 28px; padding: 0px }
+
+#social_follow_block.block .addthis_32x32_style > a.addthis_button_facebook_follow > span { background: url(http://www.lenovo.com/images/footer/xfacebook_25x25.png.pagespeed.ic.oYlPAZ4da6.png) no-repeat center center transparent !important }
+
+#social_follow_block.block .addthis_32x32_style > a.addthis_button_twitter_follow > span { background: url(http://www.lenovo.com/images/footer/xtwitter_25x25.png.pagespeed.ic.X-jB7UzJzP.png) no-repeat center center transparent !important }
+
+#social_follow_block.block .addthis_32x32_style > a.addthis_button_google_follow > span { background: url(http://www.lenovo.com/images/footer/xgoogle-plus_25x25.png.pagespeed.ic.seNDCGgiTU.png) no-repeat center center transparent !important }
+
+#social_follow_block.block .addthis_32x32_style > a.addthis_button_youtube_follow > span { background: url(http://www.lenovo.com/images/footer/xyoutube_25x25.png.pagespeed.ic.P5oR9SXphn.png) no-repeat center center transparent !important }
+
+#social_follow_block.block .addthis_32x32_style > a.addthis_button_flickr_follow > span { background: url(http://www.lenovo.com/images/footer/xflickr_25x25.png.pagespeed.ic.6nJmr44T6p.png) no-repeat center center transparent !important }
+
+#social_follow_block.block .addthis_32x32_style > a.addthis_button_pinterest_follow > span { background: url(http://www.lenovo.com/images/footer/xbig-p-button-25x25.png.pagespeed.ic.NtMCczUHqn.png) no-repeat center center transparent !important }
+
+#social_follow_block.block .addthis_32x32_style > a.addthis_button_rss_follow > span { background: url(http://www.lenovo.com/images/footer/xlenovoforums_25x25.png.pagespeed.ic.orJOII0JUo.png) no-repeat center center transparent !important }
+
+#truste.block { padding-top: 5em }
+
+.submitButton { cursor: pointer; margin: 0; padding: 0; height: 23px; width: 65px; background: red; border: 1px solid #a7a7a7; color: #555; background: #dfdfdf; background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #efefef), color-stop(100%, #cecfce)), #dfdfdf; background: -webkit-linear-gradient(#efefef, #cecfce), #dfdfdf; background: -moz-linear-gradient(#efefef, #cecfce), #dfdfdf; background: -o-linear-gradient(#efefef, #cecfce), #dfdfdf; background: linear-gradient(#efefef, #cecfce), #dfdfdf; text-shadow: 1px 1px 1px white; padding: 3px; font-size: 9px }

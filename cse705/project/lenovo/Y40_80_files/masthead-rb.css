@@ -1,0 +1,450 @@
+
+.contentContainer:before, .contentContainer:after, #bodywrap:before, #bodywrap:after {background:none !important;}
+
+.masthead .pageWrapper { z-index: 998;  }
+@media (min-width: 76.75em){
+ .masthead .pageWrapper { position: fixed; top: 0; left: 0; left: 50%; margin-left: -36.875em;}
+}
+
+/* Bar 2 */
+.bar_2 {background:none; box-shadow: none; min-height: initial; }
+.menuWrapper {  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+
+/* Bar 3 */
+.bar_3 {box-shadow:none; background-color:#e3e3e3;}
+.bar_3 .shadow-divider {display:none;}
+.bar_3-logos .left { margin-right:20px;}
+@media (min-width: 60em){
+  .bar_3 {min-height:125px;}
+  .bar_3-innerWrapper {padding-left: 90px;padding-top: 10px;}
+}
+@media (min-width: 76.75em) {
+  .bar_2 {min-height:200px; padding-top:75px; margin-top:-200px;}
+  header .bar_2 { margin:0;}
+  .scrolled.logoWrapper { height:50px;}
+}
+
+/* Logo */
+.logoWrapper { float: left; height: 50px; width: 65px; position: absolute; z-index: 11; overflow: hidden;}
+.logoWrapper .logo { background: #e22319; height: 100%; line-height: 0; text-align: center;}
+.logoWrapper .logo a {   
+  display: block;
+  height: 100%;
+  text-indent: -9999px;
+  overflow: hidden;
+  background-image: url(//www.lenovo.com/images/masthead/rebrand/logo-sm.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.scrolled.logoWrapper .logo a { background-image: url(//www.lenovo.com/images/masthead/rebrand/logo-sm.png); }
+
+
+/* General */
+.animate {-webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;}
+.navWrapper { margin-left: 65px;}
+.nav { height: 50px; background: #fff; position: relative;}
+.nav a { text-decoration: none; color: #454545;}
+.nav .menu, .nav .menu_2, .nav .menu_3 { list-style: none; margin: 0; padding: 0;}
+.nav .menu_3 { display:block !important;}
+.nav .menu>li { float: left;}
+.nav .main_Menu, .nav .prd_Menu { float: left;}
+.nav .general_Menu { float: right; clear:right;}
+.nav .menu_2_wrapper { max-height:0; overflow: hidden; }
+.nav .menu > .opened .menu_2_wrapper { max-height: 5000px;  transition:3s;} /* Slide speed */
+.nav .prd_Menu.opened>.opened .menu_2_wrapper , .nav .general_Menu>.opened .menu_2_wrapper {display:block;}
+.nav .general_Menu .debug_menu {display:none;}
+
+/* Main Menu */
+.nav .main_Menu {display:block; line-height: 15px; padding:13px 0 12px 0; margin-left:15px;}
+.nav .main_Menu:before { content: " "; background:url('//www.lenovo.com/images/masthead/rebrand/rb_menu.png') no-repeat top 0px left 0px; width:35px; height:25px; float:left; display:block;}
+.nav .main_Menu span {display:none;}
+
+/* Common */
+.nav .common_Menu .no_menu { display:none;}
+.nav .common_Menu { float:right; font-size:12px; margin:13px 40px 12px 0; line-height: 10px; color:#a7a7a7; display:none;} 
+.nav .common_Menu li { padding:0 8px;}
+.nav .common_Menu a {color:#a7a7a7;}
+.nav .common_Menu .tagline { font-size:10px; color:#000;}
+
+/* product_menu */
+.nav .prd_Menu {display:none; position:absolute; top:100%; left:0; right:0; z-index: 900;}
+.nav .prd_Menu.opened {display:block;}
+.nav .prd_Menu>li { float:none; }
+.nav .prd_Menu>li:nth-child(odd) {background:#f2f2f2;}
+.nav .prd_Menu>li:nth-child(even) {background:#e7e7e7;}
+.nav .prd_Menu>li>a { padding:18px 10px 17px 10px; line-height: 15px; display: block; text-transform: uppercase;}
+.nav .prd_Menu .menu_2_wrapper .menu_2 { list-style: none; padding: 0; margin: 0; display:block;}
+.nav .prd_Menu .menu_2_wrapper .menu_2 > li { display: block; padding: 5px 15px; border-top: 1px solid #bcbcbc; background: #ddd;}
+.nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 li:nth-child(odd) .products_submenu { background-color: #e5e5e5 !important;}
+.nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 li:nth-child(even) .products_submenu { background-color: #eaeaea !important;}
+.nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 li .products_submenu:hover { background-color: #fff !important; transition-duration:0.5s;}
+
+/* deals_menu */
+.nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li.promo_spot {display:none;}
+.nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2  li.promo_spot:hover { background: #fff !important; transition-duration:0.5s;}
+.nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li .linkLevel_2.link-hasChildren { padding-bottom:5px; display:block;}
+.nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li .menu_3 { margin:0 -15px;}
+.nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li .menu_3 > li { padding: 5px 15px; border-top: 1px solid #bcbcbc;}
+
+/* support menu */
+.nav .prd_Menu .support_menu .menu_2_wrapper .menu_2 > li .link_text {margin:5px 0 15px;}
+.nav .prd_Menu .support_menu .menu_2_wrapper .menu_2 > li .link_text img {vertical-align: middle; margin-right:10px;}
+.nav .prd_Menu .support_menu .menu_2_wrapper .menu_2 > li .link_subtitle { font-size:12px; line-height: 15px;}
+.nav .prd_Menu .support_menu .menu_2_wrapper .menu_2 .menu_3 > li .link_text {color:#009dd9; font-size:12px; line-height:15px; margin-bottom:3px;}
+.nav .prd_Menu .support_menu .menu_2_wrapper .menu_2 .menu_level_2 .link_wrapper {margin-bottom:15px;}
+
+/* General Menu */
+.nav .general_Menu>li>a { line-height: 15px; display: block; height:25px; padding:15px 7px 10px 7px; webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box;}
+.nav .general_Menu>li>a>span {display:none; line-height: 13px; font-size:12px; padding:4px 0 3px 25px; color:#a7a7a7;}
+.nav .general_Menu>li>a:before { width:20px; height:20px; float:left; display:block;}
+.nav .general_Menu li>a:before { background-image: url('//www.lenovo.com/images/masthead/rebrand/rb_icons.png'); background-repeat: no-repeat;}
+.nav .general_Menu .solutions_menu>a:before { content: " "; background-position: 0px 0px;}
+.nav .general_Menu .search_menu>a:before { content: " "; background-position: 0px -20px;}
+.nav .general_Menu .myaccount_menu>a:before { content: " "; background-position: 0px -60px;}
+.nav .general_Menu .myaccount_menu.logged_in>a:before { content: " "; background-position: 0px -80px;}
+.nav .general_Menu .cart_menu>a:before { content: " "; background-position: 0px -100px;}
+.nav .general_Menu .phone_menu>a:before { content: " "; background-position: 0px -120px;}
+.nav .general_Menu .email_menu>a:before { content: " "; background-position: 0px -140px;}
+.nav .general_Menu .menu_2_wrapper { position: absolute; left: 0; right: 0; background: #f2f2f2; z-index: 900;}
+
+.nav .general_Menu .menu_2_wrapper .menu_2 > li { display: block; padding: 5px 15px; border-top: 1px solid #bcbcbc; background: #ddd;}
+.nav .general_Menu .search_menu .searchInput-text { background: #f6f6f6; outline:none; -webkit-appearance: none; -webkit-border-radius:0; border-radius: 0;}
+.nav .general_Menu .search_menu .searchInput-button { outline:none; -webkit-appearance: none; -webkit-border-radius:0;  border-radius: 0; padding: 0px; display: block; width: 100px; height: 35px; box-shadow: none; border: none; font-size: 0.8rem; font-weight: normal; text-transform: none;}
+.nav .general_Menu .search_menu .menu_2_wrapper .menu_2 > li {padding:0;}
+
+.nav .general_Menu .cart_menu .menu_2_wrapper .menu_2 > li {padding:0;}
+.nav .general_Menu .cart_menu a>span.counter {display:none; background: #ff6b00; border-radius: 15px; width: 15px; height: 15px; text-align: center; position: absolute; margin-top:11px; right: 0px; color: #fff; font-size: 10px; padding: 0; line-height: 15px;}
+.nav .general_Menu .cart_menu .cartrollover {list-style: none; margin:0; padding:0;}
+.nav .general_Menu .cart_menu #rollovercart {background:#f2f2f2; padding-top:10px;}
+.nav .general_Menu .cart_menu #rollovercart #rollovercartContents #rollovercartContentsItems > li > a .rollovercartItemImg {top:-7px;}
+.nav .general_Menu .cart_menu #rollovercart #rollovercartFooter #rollovercartViewCart { color:#fff; font-weight:bold;}
+
+
+/* Media Queries */
+
+@media (min-width: 33.875em){
+
+
+
+  /* Fluid Width */
+  .nav .prd_Menu .menu_2_wrapper .menu_2 { display: table; table-layout: fixed; width:100%; padding:15px; overflow:auto;}
+  .nav .prd_Menu .menu_2_wrapper .menu_2 > li { display: table-cell; padding: 0; border: none; background: none; vertical-align: top;}
+
+  /* Marker */
+  .nav .menu>li.opened>a .marker {border-bottom:8px solid #ff6b00; position:absolute; bottom:0; left:0; width:100%; z-index: 901;}
+  .nav .menu>li.opened>a .marker:after{  content: ""; display: block; border: 8px solid transparent; border-top-color: #ff6b00; position: absolute; bottom: -24px; left: 50%; margin-left: -8px; z-index: 1000;}
+  .nav .general_Menu>li.search_menu.opened>a .marker, .nav .general_Menu>li.account_menu.opened>a .marker { display:none;}
+
+  .nav .main_Menu {display:none;}
+  .nav .prd_Menu {display:block !important; margin-left:10px; position:static;}
+  .nav .prd_Menu>li {background:none !important; float:left; margin:0 5px;}
+  .nav .prd_Menu>li>a {padding:18px 10px 17px 10px; position: relative;}
+  .nav .prd_Menu>li.deals_menu.opened>a .marker { border-bottom: 8px solid #6bc04b; }
+  .nav .prd_Menu>li.deals_menu.opened>a .marker:after { border-top-color: #6bc04b; }
+  .nav .prd_Menu>li.support_menu.opened>a .marker { border-bottom: 8px solid #ea6bb0; }
+  .nav .prd_Menu>li.support_menu.opened>a .marker:after { border-top-color: #ea6bb0; }
+
+  .nav .prd_Menu>.opened .menu_2_wrapper {display:block;}
+  .nav .prd_Menu .menu_2_wrapper { position: absolute; top: 100%; left: 0; right: 0; background: #f2f2f2; z-index: 900;}
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 .products_submenu {text-align:center; text-transform: uppercase; font-size:13px; display:block; height:250px; padding:10px 0; border-left:1px solid #f2f2f2; position:relative;}
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 .products_submenu:after {content: " "; border-left: 1px solid #cfcfcf; position: absolute; top: 0; left: 0; height: 100%;}
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 li:first-child .products_submenu:after {border:none;}
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 .products_submenu .link_text {color:#009dd9; line-height:15px;}
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 { display: block;}
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 > li { display: block; float:left;}
+  /* five item */
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(5),
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(5) ~ li { width: 20%;}
+  /* six item */
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(6),
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(6) ~ li { width: 33.3333%;}
+  /* seven items */
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(7),
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(7) ~ li { width: 25%;}
+  /* eight items */
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(8),
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(8) ~ li { width: 25%;}
+  /* nine items */
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(9),
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(9) ~ li { width: 33.3333%;}
+
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 { display: block;}
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li { display: block; float:left; width:100%;}
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_level_2 { padding: 10px 15px; border-top:none;
+    background: #ffffff;
+    background: -moz-linear-gradient(top,  #ffffff 4%, #dfe0df 31%, #f6f6f6 66%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(4%,#ffffff), color-stop(31%,#dfe0df), color-stop(66%,#f6f6f6));
+    background: -webkit-linear-gradient(top,  #ffffff 4%,#dfe0df 31%,#f6f6f6 66%);
+    background: -o-linear-gradient(top,  #ffffff 4%,#dfe0df 31%,#f6f6f6 66%);
+    background: -ms-linear-gradient(top,  #ffffff 4%,#dfe0df 31%,#f6f6f6 66%);
+    background: linear-gradient(to bottom,  #ffffff 4%,#dfe0df 31%,#f6f6f6 66%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
+  }
+  .lt-ie10 .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_level_2 { filter:none;}
+  .nav .prd_Menu .deals_menu .link_text {color:#009dd9; font-size:13px;}
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2>li.menu_level_2:first-child>.link_wrapper>a>.link_text { font-size:15px; text-transform:uppercase;}
+  .nav .prd_Menu .deals_menu .menu_3 .link_text {font-size:12px;}
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li .linkLevel_2.link-hasChildren { padding-bottom:0px; display:block;}
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li  .menu_3 { margin:0;}
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li  .menu_3 > li { padding:0; border-top: none;}
+
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li.promo_spot {border-left:2px solid #f2f2f2; overflow: hidden; position: relative; display: table-cell; max-height: 240px;}
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li.promo_spot img {float:left; max-width: 230px;padding-right: 15px;}
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li.promo_spot .link_text { padding-top:50px;}
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li.promo_spot .link_text h3 {font-size:13px;}
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li.promo_spot .link_text span {font-size:12px; color:#fe8600;}
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li.promo_spot .link_text p {margin:0; font-size:12px; color:#000; line-height: 16px;}
+
+  .nav .prd_Menu .support_menu .menu_2_wrapper .menu_2 { display: block;}
+  .nav .prd_Menu .support_menu .menu_2_wrapper .menu_2 > li { display: block; float:left; width:100%;}
+  .nav .prd_Menu .support_menu .menu_2_wrapper .menu_2 > li { padding:10px 15px; border-left:2px solid #f2f2f2;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f6f6f6));
+    background: -webkit-linear-gradient(top, #ffffff 0%,#f6f6f6 100%);
+    background: -o-linear-gradient(top, #ffffff 0%,#f6f6f6 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%,#f6f6f6 100%);
+    background: linear-gradient(to bottom, #ffffff 0%,#f6f6f6 100%);
+  }
+
+  .nav .general_Menu>li>a {position:relative; padding:15px 7px 10px 7px;}
+}
+
+@media (min-width: 51em) {
+  .nav .prd_Menu>li {margin:0 7px;}
+
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 { display: table}
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 > li { display: table-cell; float: none;}
+  /* five item */
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(5),
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(5) ~ li { width: auto;}
+  /* six item */
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(6),
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(6) ~ li { width: auto;}
+  /* seven items */
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(7),
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(7) ~ li { width: auto;}
+  /* eight items */
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(8),
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(8) ~ li { width: auto;}
+  /* nine items */
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(9),
+  .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(9) ~ li { width: auto;}
+
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li { float:left; min-height: 250px;}
+
+  /* one item */
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(1) { width: 100%;}
+  /* two items */
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(2),
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(2) ~ li { width: 50%;}
+  /* three items */
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(3),
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(3) ~ li { width: 33.3333%;}
+  /* four items */
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(4),
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li:first-child:nth-last-child(4) ~ li { width: 25%;}
+
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li.promo_spot { max-height: none;}
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li.promo_spot img { padding: 0; float: none; max-width: 240px; width: 100%;}
+  .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li.promo_spot .link_text { padding-top: 0;}
+
+  .nav .prd_Menu .support_menu .menu_2_wrapper .menu_2  { display: table; }
+  .nav .prd_Menu .support_menu .menu_2_wrapper .menu_2 > li { display: table-cell; float:none; width:auto;}
+ 
+  .nav .general_Menu {padding-right:40px; position:relative;}
+  .nav .general_Menu>li>a {padding:15px 7px 10px 7px;}
+  
+  .nav .general_Menu>li>a>span{display:block;}
+  .nav .general_Menu .menu_2_wrapper .menu_2 {margin-top:10px;}
+  .nav .general_Menu .menu_2_wrapper .menu_2 > li {border:none; background:#f2f2f2;}
+  .nav .general_Menu .solutions_menu .menu_2_wrapper a {color:#009dd9; font-size:12px;}
+  .nav .general_Menu .cart_menu a>span.counter {display:block;}
+  .nav .general_Menu .cart_menu .menu_2_wrapper .menu_2 {margin-top:0px;}
+
+  .nav .general_Menu .search_menu .menu_2_wrapper .menu_2 { margin-top:0px;}
+  .nav .general_Menu>.search_menu.opened {padding:15px 7px 10px 7px;}
+  
+  .nav .general_Menu>.search_menu.opened>a {margin-right:5px;}
+  .nav .general_Menu>.search_menu.opened>a, .nav .general_Menu .search_menu.opened .menu_2_wrapper { display:block; float:left; padding:0;}
+  .nav .general_Menu>.search_menu.opened>a>span {display:none;}
+  .nav .general_Menu .search_menu.opened .menu_2_wrapper { position:static;}
+  .nav .general_Menu .search_menu.opened .menu_2_wrapper .searchInput-text {width:100px; height:20px; padding:0; font-size:12px;  background:none; outline:none;}
+  .nav .general_Menu .search_menu.opened .menu_2_wrapper .searchInput{ padding:0; line-height: 1;}
+  .nav .general_Menu .search_menu.opened .menu_2_wrapper .button-standard { display:none;}
+}
+
+@media (min-width: 60em) {
+  .nav { height:75px;}
+  /* logo */
+  .logoWrapper { height: 200px; width: 65px;}
+  .navWrapper { margin-left: 65px;}
+  .logoWrapper .logo a{ 
+    background-image: url(//www.lenovo.com/images/masthead/rebrand/logo-clear.png);
+   /* background-image: url(//www.lenovo.com/images/masthead/rebrand/logo-clear.svg);*/
+  }
+
+  .nav .common_Menu {display:block;}
+  .nav .common_Menu .phone_menu .text { padding-right:5px;}
+  .nav .prd_Menu>li>a {padding:30px 10px;}
+  .nav .general_Menu>li>a {padding:0px 6px 15px;}
+  .nav .general_Menu>.search_menu.opened {padding:0px 6px 15px;}
+  .nav .general_Menu .phone_menu, .nav .general_Menu .email_menu { display:none;}
+
+  /* Debug */
+  .nav .general_Menu .debug_menu {position:absolute; display:block;}
+  .nav .general_Menu .debug_menu:first-child {left:-240px;}
+  .nav .general_Menu .debug_menu:nth-child(2) { left:-110px;}
+  .nav .general_Menu>li.debug_menu>a>span {padding:4px 0 3px 0;}
+  .nav .general_Menu .debug_menu .menu_2_wrapper { width:200px;}
+  .nav .general_Menu .debug_menu .menu_2 { width:200px; margin:0; padding:10px 0 0 0;}
+  .nav .general_Menu .debug_menu .menu_2 li { font-size:12px; padding:5px 7px;}
+  .nav .general_Menu .debug_menu .menu_2 li a {color:#009dd9;}
+  .nav .general_Menu .no_menu {display:none;}
+}
+
+@media (min-width: 60em) and (max-width: 76.75em){
+  .logoWrapper .logo a, .scrolled.logoWrapper .logo a { 
+    background-image: url(//www.lenovo.com/images/masthead/rebrand/logo-clear.png);
+   /* background-image: url(//www.lenovo.com/images/masthead/rebrand/logo-clear.svg);*/
+  }
+}
+
+@media (min-width: 76.75em) { 
+
+
+  /* Scrolled */
+  .nav.scrolled { height:50px;}
+  .nav.scrolled .main_Menu { padding:13px 0 12px 0;}
+  .nav.scrolled .prd_Menu>li>a { padding:18px 10px 17px 10px;}
+  .nav.scrolled .general_Menu>li>a { padding:15px 7px 10px 7px;}
+  .nav.scrolled .general_Menu>.search_menu.opened {padding:15px 7px 10px 7px;}
+
+  .nav.scrolled .common_Menu { display:none;}
+  .nav.scrolled .general_Menu {margin-top:0px;}
+  .nav .general_Menu>li>a, .nav .general_Menu>.search_menu.opened {padding:0 7px 15px;}
+
+}
+
+.searchInput .searchInput-text { padding:0 2px;}
+.searchInput .preSearchWrapper a {font-size:12px; display:block; padding:2px 2px;}
+
+/* IE8 */
+.lt-ie9 .nav { height:75px;}
+/* logo */
+.lt-ie9 .logoWrapper { height: 200px; width: 65px;}
+.lt-ie9 .navWrapper { margin-left: 65px;}
+.lt-ie9 .logoWrapper .logo a{ 
+    background:none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//www.lenovo.com/images/masthead/rebrand/logo-clear.png', sizingMethod='scale');
+}
+
+/* Debug */
+.lt-ie9 .nav .general_Menu .debug_menu {position:absolute; display:block;}
+.lt-ie9 .nav .general_Menu .debug_menu:first-child {left:-240px;}
+.lt-ie9 .nav .general_Menu .debug_menu:nth-child(2) { left:-110px;}
+.lt-ie9 .nav .general_Menu>li.debug_menu>a>span {padding:4px 0 3px 0;}
+.lt-ie9 .nav .general_Menu .debug_menu .menu_2_wrapper { width:200px;}
+.lt-ie9 .nav .general_Menu .debug_menu .menu_2 { width:200px; margin:0; padding:10px 0 0 0;}
+.lt-ie9 .nav .general_Menu .debug_menu .menu_2 li { font-size:12px; padding:5px 7px;}
+.lt-ie9 .nav .general_Menu .debug_menu .menu_2 li a {color:#009dd9;}
+.lt-ie9 .nav .general_Menu .no_menu {display:none;}
+
+/* Fluid Width */
+.lt-ie9 .nav .prd_Menu .menu_2_wrapper .menu_2 { display: table; table-layout: fixed; width:100%; padding:15px; overflow:auto;}
+.lt-ie9 .nav .prd_Menu .menu_2_wrapper .menu_2 > li { display: table-cell; padding: 0; border: none; background: none; vertical-align: top;}
+
+/* Marker */
+.lt-ie9 .nav .menu>li.opened>a .marker {border-bottom:8px solid #ff6b00; position:absolute; bottom:0; left:0; width:100%; z-index: 901;}
+.lt-ie9 .nav .menu>li.opened>a .marker:after{  content: ""; display: block; border: 8px solid transparent; border-top-color: #ff6b00; position: absolute; bottom: -24px; left: 50%; margin-left: -8px; z-index: 1000;}
+.lt-ie9 .nav .general_Menu>li.search_menu.opened>a .marker, .lt-ie9 .nav .general_Menu>li.account_menu.opened>a .marker { display:none;}
+
+.lt-ie9 .nav .main_Menu {display:none;}
+.lt-ie9 .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 li .products_submenu { background-color: #e5e5e5 !important;}
+.lt-ie9 .nav .prd_Menu {display:block !important; margin-left:10px; position:static;}
+.lt-ie9 .nav .prd_Menu>li {background:none !important; float:left; margin:0 5px;}
+.lt-ie9 .nav .prd_Menu>li>a {padding:18px 10px 17px 10px; position: relative;}
+.lt-ie9 .nav .prd_Menu>li.deals_menu.opened>a .marker { border-bottom: 8px solid #6bc04b; }
+.lt-ie9 .nav .prd_Menu>li.deals_menu.opened>a .marker:after { border-top-color: #6bc04b; }
+.lt-ie9 .nav .prd_Menu>li.support_menu.opened>a .marker { border-bottom: 8px solid #ea6bb0; }
+.lt-ie9 .nav .prd_Menu>li.support_menu.opened>a .marker:after { border-top-color: #ea6bb0; }
+
+.lt-ie9 .nav .prd_Menu>.opened .menu_2_wrapper {display:block;}
+.lt-ie9 .nav .prd_Menu .menu_2_wrapper { position: absolute; top: 100%; left: 0; right: 0; background: #f2f2f2; z-index: 900;}
+.lt-ie9 .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 .products_submenu {text-align:center; text-transform: uppercase; font-size:13px; display:block; height:250px; padding:10px 0; border-left:1px solid #f2f2f2; position:relative;}
+.lt-ie9 .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 .products_submenu:after {content: " "; border-left: 1px solid #cfcfcf; position: absolute; top: 0; left: 0; height: 100%;}
+.lt-ie9 .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 li:first-child .products_submenu:after {border:none;}
+.lt-ie9 .nav .prd_Menu .product_menu .menu_2_wrapper .menu_2 .products_submenu .link_text {color:#009dd9; line-height:15px;}
+
+.lt-ie9   .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_level_2 { padding: 10px 15px; border-top:none;
+    background: #ffffff;
+    background: -moz-linear-gradient(top,  #ffffff 4%, #dfe0df 31%, #f6f6f6 66%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(4%,#ffffff), color-stop(31%,#dfe0df), color-stop(66%,#f6f6f6));
+    background: -webkit-linear-gradient(top,  #ffffff 4%,#dfe0df 31%,#f6f6f6 66%);
+    background: -o-linear-gradient(top,  #ffffff 4%,#dfe0df 31%,#f6f6f6 66%);
+    background: -ms-linear-gradient(top,  #ffffff 4%,#dfe0df 31%,#f6f6f6 66%);
+    background: linear-gradient(to bottom,  #ffffff 4%,#dfe0df 31%,#f6f6f6 66%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
+  }
+
+.lt-ie9   .nav .prd_Menu .deals_menu .link_text {color:#009dd9; font-size:13px;}
+.lt-ie9   .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2>li.menu_level_2:first-child>.link_wrapper>a>.link_text { font-size:15px; text-transform:uppercase;}
+.lt-ie9   .nav .prd_Menu .deals_menu .menu_3 .link_text {font-size:12px;}
+.lt-ie9   .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li .linkLevel_2.link-hasChildren { padding-bottom:0px; display:block;}
+.lt-ie9   .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li  .menu_3 { margin:0;}
+.lt-ie9   .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li  .menu_3 > li { padding:0; border-top: none;}
+
+.lt-ie9   .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li.promo_spot {border-left:2px solid #f2f2f2; overflow: hidden; position: relative; display: table-cell; max-height: 240px;}
+.lt-ie9   .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li.promo_spot img {float:left; max-width: 230px;padding-right: 15px;}
+.lt-ie9   .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li.promo_spot .link_text { padding-top:50px;}
+.lt-ie9   .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li.promo_spot .link_text h3 {font-size:13px;}
+.lt-ie9   .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li.promo_spot .link_text span {font-size:12px; color:#fe8600;}
+.lt-ie9   .nav .prd_Menu .deals_menu .menu_2_wrapper .menu_2 > li.promo_spot .link_text p {margin:0; font-size:12px; color:#000; line-height: 16px;}
+
+.lt-ie9 .nav .prd_Menu .support_menu .menu_2_wrapper .menu_2  { display: table; }
+.lt-ie9  .nav .prd_Menu .support_menu .menu_2_wrapper .menu_2 > li { display: table-cell; float:none; width:auto;}
+.lt-ie9   .nav .prd_Menu .support_menu .menu_2_wrapper .menu_2 > li { padding:10px 15px; border-left:2px solid #f2f2f2;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f6f6f6));
+    background: -webkit-linear-gradient(top, #ffffff 0%,#f6f6f6 100%);
+    background: -o-linear-gradient(top, #ffffff 0%,#f6f6f6 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%,#f6f6f6 100%);
+    background: linear-gradient(to bottom, #ffffff 0%,#f6f6f6 100%);
+  }
+
+.lt-ie9 .nav .general_Menu>li.search_menu.opened>a .marker, .lt-ie9 .nav .general_Menu>li.account_menu.opened>a .marker { display:none;}
+.lt-ie9 .nav .general_Menu {padding-right:40px; position:relative;}
+.lt-ie9 .nav .general_Menu>li>a {padding:15px 7px 10px 7px;  position:relative;}
+
+.lt-ie9 .nav .general_Menu>li>a>span{display:block;}
+.lt-ie9 .nav .general_Menu .menu_2_wrapper .menu_2 {margin-top:10px;}
+.lt-ie9 .nav .general_Menu .menu_2_wrapper .menu_2 > li {border:none; background:#f2f2f2;}
+.lt-ie9 .nav .general_Menu .solutions_menu .menu_2_wrapper a {color:#009dd9; font-size:12px;}
+.lt-ie9 .nav .general_Menu .cart_menu a>span.counter {display:block;}
+.lt-ie9 .nav .general_Menu .cart_menu .menu_2_wrapper .menu_2 {margin-top:0px;}
+
+.lt-ie9 .nav .general_Menu .search_menu .menu_2_wrapper .menu_2 { margin-top:0px;}
+.lt-ie9 .nav .general_Menu>.search_menu.opened {padding:15px 7px 10px 7px;}
+
+.lt-ie9 .nav .general_Menu>.search_menu.opened>a {margin-right:5px;}
+.lt-ie9 .nav .general_Menu>.search_menu.opened>a, .lt-ie9 .nav .general_Menu .search_menu.opened .menu_2_wrapper { display:block; float:left; padding:0;}
+.lt-ie9 .nav .general_Menu>.search_menu.opened>a>span {display:none;}
+.lt-ie9 .nav .general_Menu .search_menu.opened .menu_2_wrapper { position:static;}
+.lt-ie9 .nav .general_Menu .search_menu.opened .menu_2_wrapper .searchInput-text {width:100px; height:20px; padding:0; font-size:12px;  background:none; outline:none;}
+.lt-ie9 .nav .general_Menu .search_menu.opened .menu_2_wrapper .searchInput{ padding:0; line-height: 1;}
+.lt-ie9 .nav .general_Menu .search_menu.opened .menu_2_wrapper .button-standard { display:none;}
+
+.lt-ie9 .nav .common_Menu {display:block;}
+.lt-ie9 .nav .prd_Menu>li>a {padding:30px 10px;}
+.lt-ie9 .nav .general_Menu>li>a {padding:0px 6px 15px;}
+.lt-ie9 .nav .general_Menu>.search_menu.opened {padding:0px 6px 15px;}
+.lt-ie9 .nav .general_Menu .phone_menu, .lt-ie9 .nav .general_Menu .email_menu { display:none;}
+
+
+/* Bug Fix - 1912 */
+#ItemEOLMessage { padding-top: 18px; line-height: 16px;}
