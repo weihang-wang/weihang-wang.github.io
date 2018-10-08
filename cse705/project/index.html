@@ -22,7 +22,7 @@ Web bots are programs that simulate user browsing behavior. They read the HTML c
 
 
 <h3>A Content-Sensitive Web Bot on Lenovo Website:</h3>
-Content-sensitive web bots are widely used on Ecommerce websites. Take a bot targeting at the Lenovo outlet store as an example. The Lenovo outlet store offers substantially discounted computers but the quantity is limited. It is usually hard to get one since many people keep refreshing the inventory and grab a deal as soon as it becomes available. While it is tedious for a human to repeat this procedure, a bot was programmed to monitor the store and add deals to the shopping cart automatically. 
+Content-sensitive web bots are widely used on Ecommerce websites. Take a bot targeting at the Lenovo outlet store as an example [1]. The Lenovo outlet store offers substantially discounted computers but the quantity is limited. It is usually hard to get one since many people keep refreshing the inventory and grab a deal as soon as it becomes available. While it is tedious for a human to repeat this procedure, a bot was programmed to monitor the store and add deals to the shopping cart automatically. 
 </br></br>
 
 Fig. 1 shows the HTML code of the “Add to cart” button. It is an element representing a link. There are totally 109 elements on this page. 
@@ -51,25 +51,28 @@ https://weihang-wang.github.io/cse705/project/lenovo/lenovo_mod.py
 <li>
 Download the web page of the Lenovo website, and host the web page within a subfolder under your personal website, e.g., www.cse.buffalo.edu/~weihangw/cse705/Y40_80.html
 Information on how to create your own web page with CSE’s server: https://wiki.cse.buffalo.edu/services/content/how-create-your-cse-home-page
-</br>	</li> 
+</br></br>	</li> 
 <li>
 Randomize the class of all <a> elements on the web page to a randomized value starting with “rand-class-”, followed by 4-digit random integer, e.g., “button-called-out” is randomized to “rand-class-1234”, “button-full” is randomized to “rand-class-7623”. 
 </br></br>
 	(1)	In order to locate all <a> elements, you need an HTML parser to parse the HTML page into a DOM tree. We will use htmlparser2 for this purpose (https://www.npmjs.com/package/htmlparser2). 
-</br>
+</br></br>
+
 // Read input html page as string	</br>
-var html_str = fs.readFileSync(input_file_with_path, 'utf-8');</br>
+var html_str = fs.readFileSync(input_file_with_path, 'utf-8');</br></br>
 	
-	// Transform input html page to DOM tree</br>
+	// Transform input html page to DOM tree, the DOM tree is stored in handler.dom</br>
 	var handler = new htmlparser2.DomHandler();</br>
 	var HTMLparser = new htmlparser2.Parser(handler);</br>
 	HTMLparser.parseComplete(html_str);</br>
 </br>
-	// the DOM tree is stored in handler.dom, write a recursive function to walk the DOM tree (visit each element and its children): whenever an element is  <a>, randomize its class attribute.</br>
+	// Write a recursive function to walk the DOM tree (visit each element and its children): </br>
+	// whenever an element is  <a>, randomize its class attribute.</br>
 walkDOM(handler.dom);</br>
 
-</br></br>
+</br>
 (2)	Once the class attributes are randomized, you need to convert the DOM tree back to the HTML page, so that a randomized HTML page can be rendered by the browser. For this purpose, we use the nodejs package htmlparse-to-html (https://www.npmjs.com/package/htmlparser-to-html). 
+</br>
 </br>
 var html = require('htmlparser-to-html');</br>
 </br>
