@@ -28,14 +28,14 @@ Content-sensitive web bots are widely used on Ecommerce websites. Take a bot tar
 Fig. 1 shows the HTML code of the “Add to cart” button. It is an element representing a link. There are totally 109 elements on this page. 
 </br></br>
 
-<img src="https://weihang-wang.github.io/cse705/project/files/fig1.jpg"></img>
+<img src="https://weihang-wang.github.io/cse705/project/files/fig1.jpg"></img></br>
 Figure 1: The source of the “Add to cart” button. The page has totally 109 an elements but only one “Add to cart” button.
 </br></br>
 
 Fig. 2 shows a snippet of the web bot. The script loads a product page at line 1. It hence tries to locate the “Add to cart” link. Since there are many elements, the script has to distinguish the target from the others. It does so by comparing the style class name and the element id of a candidate link with some patterns. In this case, at line 2, the script uses two style class names “button-called-out” and “button-full” as the signature. If such an is found, at line 4, it further extracts the id from the content after “sb=” in the link. In this example, the itemid is “:000001BD:0002F49B:”. Then it constructs the actual addto-cart link at line 5 and invokes the browser at line 6 to add the item to the shopping cart. 
 </br></br>
 
-<img src="https://weihang-wang.github.io/cse705/project/files/fig2.jpg"></img>
+<img src="https://weihang-wang.github.io/cse705/project/files/fig2.jpg"></img></br>
 Figure 2: A snippet of a web bot for the Lenovo Outlet.
 </br></br>
 
@@ -162,7 +162,7 @@ Note: After the web page is randomized, the functionality of the website may be 
 For example, Figure 3 shows the code snippet to override the JavaScript API that locate elements by class name. Whenever the web page program looks up elements by class name, this override version will be invoked first. It checks the mapping between the original class and the randomized class. If a mapping exist, that means the class was randomized, then the randomized string will be used to invoke the native implementation. Otherwise, the original class is used for the function call. 
 </br></br>
 
-<img src="https://weihang-wang.github.io/cse705/project/files/fig3.jpg"></img>
+<img src="https://weihang-wang.github.io/cse705/project/files/fig3.jpg"></img></br>
 Figure 3: override the JavaScript API that locate elements by class name.
 
 </br></br>
