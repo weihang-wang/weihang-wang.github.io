@@ -86,60 +86,61 @@ To achieve this, recursively process all CSS files under the folder “Y40_80_fi
 	</li>
 
 <li>
-4.	Test your results.
-====================================================================
-(1) Configuration:
-====================================================================
-In "config.py":
+	4.	Test your results. </br>
+====================================================================</br>
+(1) Configuration:</br>
+====================================================================</br>
+In "config.py":</br>
 
-  * variable "useOriginal":
-    -- Set value to 1: original version of the web page
-    -- Otherwise: randomized version of the web page  
-  
-  * variable "baseURL":
-    -- The baseURL to the original and randomized versions
+  * variable "useOriginal":</br>
+    -- Set value to 1: original version of the web page</br>
+    -- Otherwise: randomized version of the web page  </br>
+  </br>
+  * variable "baseURL":</br>
+    -- The baseURL to the original and randomized versions</br>
     Once set, page 
       baseURL + "/lenovo/ori/Y40_80.html"
-    should be accessiable
+    should be accessiable </br>
 
+</br>
     
     
     
-====================================================================
-(2) How to run:
-====================================================================
-(a) Set "baseURL" in "config.py" and make it point to the server
+====================================================================</br>
+(2) How to run:</br>
+====================================================================</br>
+(a) Set "baseURL" in "config.py" and make it point to the server</br>
 
-(b) Set "useOriginal = 1" in "config.py" to use the original web page
+(b) Set "useOriginal = 1" in "config.py" to use the original web page</br>
 
-(c) run "python ./lenovo_mod.py" (please see the sample output below)
+(c) run "python ./lenovo_mod.py" (please see the sample output below)</br>
 
-(d) Set "useOriginal = 0" in "config.py" to use the randomized web page
+(d) Set "useOriginal = 0" in "config.py" to use the randomized web page</br>
 
-(e) run "python ./lenovo_mod.py" again (please see the sample output below)
+(e) run "python ./lenovo_mod.py" again (please see the sample output below)</br>
+    </br>
     
-    
-====================================================================
-(3) Sample output:    
-====================================================================
+====================================================================</br>
+(3) Sample output:    </br>
+====================================================================</br>
+</br>
+************************</br>
+(3.1) Original version</br>
+************************ </br>
 
-************************
-(3.1) Original version
-************************ 
-
-1.lenovo$ python ./lenovo_mod.py
-URL adding the laptop to the cart:
-  http://outlet.lenovo.com/outlet_us/builder/?sb=:000001BD:0002DA7A:
-URL extraction done
-
+1.lenovo$ python ./lenovo_mod.py</br>
+URL adding the laptop to the cart:</br>
+  http://outlet.lenovo.com/outlet_us/builder/?sb=:000001BD:0002DA7A:</br>
+URL extraction done</br>
 
 
-************************
-(3.2) Randomized version
-************************
+</br>
+************************</br>
+(3.2) Randomized version</br>
+************************</br>
 
-1.lenovo$ python ./lenovo_mod.py 
-The deal was found but lost before adding to shopping cart...  
+1.lenovo$ python ./lenovo_mod.py </br>
+The deal was found but lost before adding to shopping cart...</br>
 
 	</li>
 	
@@ -149,18 +150,19 @@ The deal was found but lost before adding to shopping cart...  
 	
 	
 Note: After the web page is randomized, the functionality of the website may be broken. This is because the JS code cannot access original elements directly. Moreover, even after you match the CSS styles with HTML elements, the web page appearance may be still broken because some styling format are added dynamically. To keep the web page appearance persistent, you need to overwrite the JavaScript APIs that locate HTML elements and the APIs that create new HTML elements.  
-
+</br>
 For example, Figure 3 shows the code snippet to override the JavaScript API that locate elements by class name. Whenever the web page program looks up elements by class name, this override version will be invoked first. It checks the mapping between the original class and the randomized class. If a mapping exist, that means the class was randomized, then the randomized string will be used to invoke the native implementation. Otherwise, the original class is used for the function call. 
-
+</br>
 
 Figure 3: override the JavaScript API that locate elements by class name.
 
 	<b>
 Due to the heavy load of implementation (override every function and attribute getter/setter that could possibly affect the behavior of the program), the dynamic loading part is not required for this project. i.e., you only need to finish the 4 steps in “Project Description” section. 
 	</b>
-
+</br>
 
 [1] A simple python crawler for Lenovo outlet website. https://github.com/agwlm/lenovo_crawler
+</br>
 
 </body>
 </html>
