@@ -1,0 +1,5 @@
+.searchContainer .preSearchWrapper { padding-top: 0px; position: relative; width: 100%; }
+.searchContainer .preSearchWrapper .preSearchContent { background-color: #ffffff; position: absolute; top: 2px; padding: 0.5em; right: 0; width: 190px; z-index: 100; -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 10px 10px 0; -moz-box-shadow: rgba(0, 0, 0, 0.4) 0 10px 10px 0; box-shadow: rgba(0, 0, 0, 0.4) 0 10px 10px 0; }
+.searchContainer .preSearchWrapper .preSearchContent > a { color: #666666; display: block; padding: 3px 0; font-size: 1.4em;}
+.searchContainer .preSearchWrapper .preSearchContent > a.highlight { background: #d8eff9; color: #000000; text-decoration: none; }
+.searchContainer .preSearchWrapper .preSearchContent .search-typeahead-suggestion-txt { color: #000000; font-weight: bold; margin-top: 10px; text-decoration: underline; }

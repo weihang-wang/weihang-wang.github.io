@@ -1,0 +1,1 @@
+window._vsq = window._vsq || []; window._vsq.push(['vsOpts', {site: 'lenovo', vip: 'bcvippc02.rightnowtech.com', poolId: '4166:1', vsEnabled: true, cacheDomain: 'lenovo.widget.custhelp.com'}]);

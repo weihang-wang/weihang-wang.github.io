@@ -1,0 +1,9 @@
+//tealium universal tag - utag.21 ut4.0.201507311400, Copyright 2015 Tealium.com Inc. All Rights Reserved.
+try{if(!utag.libloader){utag.libloader=function(src,handler,a,b){a=document;b=a.createElement('script');b.language='javascript';b.type='text/javascript';b.src=src;if(typeof handler=='function'){b.handlerFlag=0;b.onreadystatechange=function(){if((this.readyState=='complete'||this.readyState=='loaded')&&!b.handlerFlag){b.handlerFlag=1;handler()}};b.onload=function(){if(!b.handlerFlag){b.handlerFlag=1;handler()}};a.getElementsByTagName('head')[0].appendChild(b)}}};(function(id,loader,u){u=utag.o[loader].sender[id]={};u.ev={'view':1};u.map={};u.extend=[function(a,b){$(function(){var nextdayships=$(".nextdayship");if(nextdayships.length>0)
+{nextdayships.fancybox({'overlayShow':true,'opacity':true,'width':'300','height':'300','titlePosition':'outside','overlayColor':'#000','overlayOpacity':0.75,'transitionIn':'fade','transitionOut':'fade','padding':0})}
+$('ol.menuLevel_1 >li').each(function(){if($(this).text().indexOf("Holiday Store")>0)
+{var holiday_link=$(this).find('a').attr('href');$(this).find('.link-wrapper').hide();}});$('ol.generalList >li.child-level_2').each(function(){if($(this).text().indexOf("Order Assistance")>0||$(this).text().indexOf("Support")>0)
+{$(this).find('.linkLevel_2').css('border','none');}
+if($(this).text().indexOf("Credit card")>0||$(this).text().indexOf("X86")>0||$(this).text().indexOf("Network Storage")>0||$(this).text().indexOf("Accessories")>0)
+{$(this).find('.link-title').css('display','none');}});});}];u.send=function(a,b,c,d,e,f){if(u.ev[a]||typeof u.ev.all!="undefined"){var data={};for(c=0;c<u.extend.length;c++){try{d=u.extend[c](a,b);if(d==false)return}catch(e){}};for(d in utag.loader.GV(u.map)){if(typeof b[d]!='undefined'){e=u.map[d].split(',');for(f=0;f<e.length;f++){data[e[f]]=b[d]}}}
+}};try{utag.o[loader].loader.LOAD(id)}catch(e){utag.loader.LOAD(id)}})('21','lenovo.ag');}catch(e){}
