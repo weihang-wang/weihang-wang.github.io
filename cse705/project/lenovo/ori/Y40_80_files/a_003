@@ -1,0 +1,59 @@
+
+        if (typeof(nm_async_actions) !== 'function') {
+            function nm_async_actions() {
+                if (typeof(_nm) != 'undefined') {
+                    for (var elem = 0; elem < _nm.length; elem++) {
+                        var url = '';
+
+                        switch (_nm[elem][0]) {
+                            case 'trackurl' :
+                                if (typeof(_nm[elem][1]) != 'undefined') {
+                                    url  = _nm[elem][1];
+                                    if (_nm[elem][1].indexOf('http') == -1) {
+                                        url = document.location.protocol + '//' + document.location.hostname + (url.charAt(0) == '/' ? '' : '/') + url;
+                                    }
+                                    url = 'http://com-lenovo.netmng.com/?log_only=1&url=' + escape(url);
+                                }
+                                break;
+
+                            case 'trigger' :
+                                url = 'http://com-lenovo.netmng.com/?function=manualTrigger';
+                                if (typeof(_nm[elem][1]) != 'undefined' && _nm[elem][1] != '') url += '&popin=' + escape(_nm[elem][1]);
+                                break;
+
+                            default:
+                                if (typeof(_nm[elem][0]) != 'undefined' && _nm[elem][0] != ''){
+                                    url = 'http://com-lenovo.netmng.com/?function=' + _nm[elem][0];
+                                    url+= '&data=';
+                                    for (var i=1; i<_nm[elem].length; i++) url+= escape(_nm[elem][i]) + '|';
+                                    url = url.substring(0, url.length-1);
+                                }
+                                break;
+                        }
+
+                        if (url != '') {
+                            var script = document.createElement('script');
+                            script.setAttribute('src', url + '&rnd=' + Math.random());
+                            script.type ='text/javascript';
+                            document.getElementsByTagName('head')[0].appendChild(script);
+                        }
+                    }
+                    _nm = [];
+                }
+            }
+        }
+
+        if (typeof(nm_async_actions) == 'function') { setInterval('nm_async_actions()',1000); }
+    
+
+        if (typeof(nm_track) !== 'function') {
+            function nm_track(url) {
+                window.nm_url = window.nm_url || '';
+                if (url != window.nm_url) {
+                    window.nm_url   = url;
+                    window._nm      = window._nm || [];
+                    window._nm.push(['trackurl', url]);
+                }
+            }
+        }
+    

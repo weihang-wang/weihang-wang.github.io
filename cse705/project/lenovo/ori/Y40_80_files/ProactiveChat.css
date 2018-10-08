@@ -1,0 +1,226 @@
+/* Apply the border to the right side */
+
+#oracleChat {
+    position: absolute;
+    z-index: 10000;
+    top: 50px;
+}
+
+.rn_SyndicatedChatLogoImageDiv img
+{
+    vertical-align:top;
+    /* height: 59px; */
+    /* width: 134px; */
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+.rn_SyndicatedChatHeaderLabelDiv
+{
+    display: none !important;
+    height: 40px;
+    border-bottom: #036 0px solid;
+}
+
+.rn_SyndicatedChatHeaderLabel
+{
+    display: none !important;
+    color: #036;
+    font-size:.875em;
+    font-weight:bold;
+    font-family:Verdana, Geneva, sans-serif;
+
+}
+.rn_SyndicatedChatQuestionDiv
+{
+    float: right;
+    height: 145px;
+    left: 20px !important;
+    margin: 20px;
+    padding: 0;
+    position: absolute;
+    top: 73px !important;
+    width: 290px;
+}
+
+.rn_SyndicatedChatQuestionLabel
+{
+    color: #555555 !important;
+    font-family: Helvetica !important;
+    font-size: 15px !important;
+    left: 25px !important;
+    position: absolute !important;
+    top: 12px !important;
+    width: 130px !important;
+    z-index: 1000!important;
+}
+
+.rn_SyndicatedChatAvatarDiv
+{
+   /*  float: right;margin: 20px; */
+    
+    left: 40px !important;
+    padding: 0;
+    position: absolute;
+    top: 82px !important;
+    width: 290px;
+    height: 145px;
+    z-index: 5; 
+}
+
+.rn_SyndicatedCheckbox
+{
+    margin: 5px 0px 5px 2px;
+    vertical-align:middle;
+}
+
+.rn_SyndicatedLabel
+{
+
+    margin: 0px 0px 0px 7px;
+    vertical-align:middle;
+}
+
+.yui-panel
+{
+    top:0pt;
+    position:relative;
+    border:0px solid #888;
+    overflow:hidden;
+}
+
+.rn_Dialog  .ft .yui-button button
+{
+    color: #fff;
+    /* text-shadow: 1px 1px #000; */
+    min-width: 134px;
+    min-height: 35px;
+    /* border: solid 1px #206485; */
+    position: absolute;
+    top: 245px;
+
+    background: #3e8ddd; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    /* background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRjYjBkZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk5JSIgc3RvcC1jb2xvcj0iIzAyNjI4ZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=); */
+    background: -moz-linear-gradient(top,  #4cb0df 0%, #02628e 99%); /* FF3.6+ */
+    /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4cb0df), color-stop(99%,#02628e)); */ /* Chrome,Safari4+ */
+    /* background: -webkit-linear-gradient(top,  #4cb0df 0%,#02628e 99%); */ /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #4cb0df 0%,#02628e 99%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #4cb0df 0%,#02628e 99%); /* IE10+ */
+    /* background: linear-gradient(to bottom,  #4cb0df 0%,#02628e 99%); */ /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4cb0df', endColorstr='#02628e',GradientType=0 ); /* IE6-8 */
+    font-family: Helvetica;
+    font-size: 13px;
+}
+
+
+#rn_DialogButton_rn_Dialog_0_0 .first-child button {left: 40px;}
+#rn_DialogButton_rn_Dialog_0_1 .first-child button {left: 186px;}
+
+.yui-dialog .yui-panel, .rn_Dialog
+{
+/* background-image:url('/euf/assets/images/lenovo/bg-grey-swirls.gif'); */ /*https://lenovo.widget.custhelp.com*/
+background-repeat:no-repeat;
+background-attachment:inherit;
+background-position:0px 0px; 
+    
+background-color: #6abf4a; 
+    
+border: 5px #cfcfcf solid !important;
+    
+height: 346px;
+    width: 375px;
+    
+box-sizing: content-box;
+font-family: Helvetica Neue;
+}
+
+.yui-skin-sam .yui-panel .bd, .yui-skin-sam .yui-panel .ft
+{
+background: none !important; 
+}
+
+.yui-skin-sam .yui-dialog .ft
+{
+    padding:5px 5px 5px 5px;
+    font-size:.75em;
+    font-family:Verdana, Geneva, sans-serif;
+}
+
+
+.yui-overlay, .yui-panel-container
+{
+    position: relative;
+}
+
+.yui-panel-container.yui-dialog.yui-simple-dialog
+{
+    /*position:absolute;*/  /*needed if dialog is modal*/
+}
+
+.hd {
+    font-family: Helvetica;
+    background: none !important;
+    border: none !important;
+    color: #fff !important;
+    font-size: 21px !important;
+    letter-spacing: 0px;
+    width: 290px;
+    position: absolute;
+    top: 38px !important;
+    left: 40px !important;
+    padding: 0 2px !important;
+    margin: 0 !important;
+    font-weight: normal !important;
+}
+
+.ft {
+    border: none !important;
+}
+
+.yui-skin-sam .yui-panel-container.shadow .underlay
+{
+    width:305px;
+    z-index: -9998;
+    filter: alpha(opacity=20);
+}
+
+.underlay {
+    display: none;
+}
+
+.yui-skin-sam .mask
+{
+    background-color:#000000;
+    opacity:0.25;
+    filter: alpha(opacity=20);
+}
+
+.rn_Dialog a.container-close
+{    
+    background: url("/euf/assets/images/lenovo/close-X.gif");
+    /* no-repeat fixed 0 0 !important; https://lenovo.custhelp.com//euf/assets/images/lenovo/close-X.gif*/
+    background-repeat:no-repeat;
+    background-attachment:inherit;
+    background-position:0px 0px;                                                                                             
+    position: absolute !important;
+    top: -5px !important;
+    right: -5px !important;
+    width: 42px !important;
+    height: 43px !important;
+    color: #cfcfcf;
+}
+
+.ft .rn_RefuseDiv {
+    position: absolute;
+    left: 0px !important;
+    bottom: 0px !important;
+    height: 24px !important;
+    width: 100% !important;
+    background: #efefef !important;
+    color: #9c3022;
+    font-size: 15px;
+    border: solid 1px #bfbfbf !important;
+    padding-left: 30px !important;
+    padding-bottom: 30px !important;
+}

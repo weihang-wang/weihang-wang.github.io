@@ -1,0 +1,396 @@
+.tabbedBrowse-productListing-button-container.button-second a{display: none;}
+.notifyme-btn{width:100%;text-align:center;}
+
+@media (min-width: 55em){
+.columnSlider-section{width: 33.333%;}
+.columnSlider-fourColumns .columnSlider-section{width: 25%;}
+}
+/*.nestedMenu .actionArrow-hasChildren >.arrow, .productList .actionArrow-hasChildren >.arrow, .generalList .actionArrow-hasChildren >.arrow {color: #cf2a23;}*/
+
+/*Fix for distorted tabs in subseries page, should be moved to mq.css later*/
+.tabs-item span{display:inline-block;}
+
+/*Overwrite hover styles in touch based browsers*/
+html.touch .bar_2-link:hover{color:#009dd9;}
+
+/*To show and hide offers link*/
+.bar_3-rightLink{display:none;}
+.offerShow{display:block;}
+@media (min-width: 65em){.offerShow{display:none;}}
+.lt-ie10 .compareTable-heading{filter:none;}
+.btnPlaceHolder{display:none;}
+@media (min-width: 32em){
+.btnPlaceHolder{display:block;width:50px;height:35px;}
+
+/*FP2150*/
+.tabbedBrowse-productListing-button-container.button-second a{display: block;}
+}
+.cart-actionLinks-print{margin-left:1em;}
+.disclaimer{font-size:0.8rem;padding:0em 1.5em 1.5em 3em;}
+
+/* intel/microsoft compliance fixes */
+@media (max-width:66em) and (min-width:65em) { /* position on right and show promo logo when offers link is hidden */
+	#splitterPage .bar_3-logos,#brandPage .bar_3-logos{display:block; margin-right:0.5em; margin-top:-4.5em;}
+	#splitterPage .bar_3-logos .shadow-divider,#splitterPage .bar_3-logos .right,#brandPage .bar_3-logos .shadow-divider,#brandPage .bar_3-logos .right{display:none;}
+}
+@media (max-width:65em) and (min-width:60em) { /* position on left and show promo logos when narrow results link is hidden and right offers link is visible */
+	#splitterPage .bar_3-logos,#brandPage .bar_3-logos{display:block; float:left; margin-left:0.5em; margin-top:-4.5em;}
+	#splitterPage .bar_3-logos .shadow-divider,#splitterPage .bar_3-logos .right,#brandPage .bar_3-logos .shadow-divider,#brandPage .bar_3-logos .right{display:none;}
+}
+@media (min-width:66em) { /* position on right and show both logos when breadcrumbs visible */
+	#splitterPage .bar_3-logos,#brandPage .bar_3-logos{display:block; margin-right:0.5em; margin-top:-1em;}
+	#splitterPage .bar_3-logos .shadow-divider,#splitterPage .bar_3-logos .right,#brandPage .bar_3-logos .shadow-divider,#brandPage .bar_3-logos .right{display:block;}
+}
+
+@media (max-width:51em) { /* hide espot when mashead goes off*/
+	li.espots{display:none;}
+}
+
+/*Contact us styles*/
+.vcard .expanded-padding{
+padding: 1rem;
+}
+.vcard-expand{
+padding: 0 1rem;
+}
+.contactList .subSection-header{
+clear:both;
+margin-bottom: 10px;
+}
+
+@media (min-width:65em){
+.columnSlider-series{min-width:9.5em;}
+}
+
+/*sidebar Nav styles*/
+.sidebarNav {background-color: white;}
+.expandableHeading.has-arrowLink, .has-arrowLink.unexpandableHeading {position: relative;}
+.sidebarNav-heading {font-size: 15.2px;font-size: 0.95rem;color: #555;font-weight: bold;text-indent: -.175em;display: inline;}
+.greyArrow-link-has-children {border-left: 1px solid #ccc;}
+.greyArrow-link {padding: 9px 14px 7.2px 19px;padding: 0.5625rem 0.875rem 0.45rem 1.1875rem;color: #ccc;position: absolute;top: 0;right: 0;display: block;}
+.sidebarNav-list.first {margin-top: 12px;margin-top: 0.75rem;border: none;padding-top: 0;}
+.sidebarNav-list {padding: 8px 0px 8px 0px;padding: 0.5rem 0rem 0.5rem 0rem;margin: 0px 12px 12px 12px;margin: 0rem 0.75rem 0.75rem 0.75rem;font-size: 14.4px;
+font-size: 0.9rem;border-top: 1px dashed #ccc;list-style-type: none;font-weight: bold;}
+.sidebarNav-list-b {margin-left: 5.6px;margin-left: 0.35rem;padding: 0;font-weight: normal;list-style-type: none;}
+
+/*Mega menu breakpoints for 4 columns*/
+@media (min-width: 53em){
+.productList .child-level_2 {width: 10em;}
+}
+
+@media (min-width: 57em){
+.productList .child-level_2 {width: 12em;}
+}
+
+@media (min-width: 64em){
+.productList .child-level_2 {width: 13em;}
+}
+
+@media (min-width: 74em){
+.productList .child-level_2 {width: 16em;}
+}
+
+/** To Highlight the Where to Buy link **/
+.productList .where_to_buy, .generalList .where_to_buy{display:none}
+.productList .highlight a{background: #4fb4e3!important;background: -webkit-gradient(linear,50% 0,50%,100%,color-stop(0%,#4fb4e3),color-stop(100%,#01618d)),#4fb4e3!important;background: -webkit-linear-gradient(top,#4fb4e3,#01618d),#4fb4e3!important;}
+@media (min-width:56em){
+	.productList .where_to_buy, .generalList .where_to_buy{display:block}
+}
+
+/** Non link items rendering */
+.productList .no-link>.link-title {color:#292929;cursor:pointer}
+@media (min-width:56em){
+	.productList .no-link>.link-title {cursor:default}
+}
+
+/* Sales Tag */
+.salestag-New, .salestag-BestSelling, .salestag-TopRated, .salestag-ComingSoon {font-weight:bold;}
+
+/*Splitter column brand title links*/
+.csstransforms3d .columnSlider-heading a{color:#000;}
+@media (min-width: 55em){
+.csstransforms3d .columnSlider-heading a{color:#fff;}
+.csstransforms3d .columnSlider-heading a{pointer-events:auto;}
+}
+
+/*Tab Model Control*/
+.tabbedBrowse-productListings-controls button[disabled="disabled"] {display:none;}
+
+/*Adjust the alignment of button arrow*/
+.button-ribbon-small:after {line-height: 3em;}
+
+/*Adjust splitter title text - bug# 948*/
+@media (min-width: 55em){
+.columnSlider-heading {font-size: 25px;font-size: 1.7rem!important;}
+}
+/* Fixed Bug 973 */
+.configuratorItem-summary-priceText-value{white-space:nowrap}
+
+/*Fix for Bug 974*/
+.cart-summary-ecouponForm-button, .cart-summary-ecouponForm-activation-button{width: 50%;}
+
+/*FP1870*/
+.bar_3-leftLink, .bar_3-rightLink {top:auto;bottom:8px;bottom:0.5rem;}
+.bar_3-compareAll {font-weight: bold;font-size: 0.9em;line-height: 1.1;padding-bottom:8px;padding-bottom:0.5rem;}
+.bar_3-compareAll a {color:#009DD9;}
+.bar_3-heading {padding:16px;padding:1rem;}
+@media (max-width: 65em){
+.bar_3-compareAll{display:block;display: block;float: none;left: 0;top: 0;}
+}
+@media (min-width: 60em){
+.bar_3-rightLink {top:16px;top:1rem;bottom:auto;}
+}
+@media (min-width: 66em){
+.bar_3-heading {padding:0.7em 0 0.9em; padding-left:0;}
+}
+
+/*Fix for Bug 983*/
+.footer-bottomBar a, .footer-bottomBar a:hover, .footer-bottomBar a:visited{margin-right:1em;}
+
+/*Fix for Bug 991*/
+.tabbedBrowse-configurator .expandableMenu h3.cf{clear:both;}
+
+/*Fix for FP1919*/
+.expandableHeading.twolines .sidebarNav-heading{
+width: 134px;
+line-height: 1.1;
+display: inline-table;
+margin-top: -3px;
+}
+.expandableHeading.twolines a.greyArrow-link-has-children{padding-top:15px;}
+.expandableContent.series{padding-left:25px;}
+
+/*Styles for Product menu change FP1868*/
+
+.productList.menuLevel_3 >li.all-links, .productList .menuLevel_2 >li.all-links{display:inline;}
+.nestedMenu li.is-expanded>.link-wrapper .link-hasChildren .link-title:after, .productList li.is-expanded>.link-wrapper .link-hasChildren .link-title:after, .generalList li.is-expanded>.link-wrapper .link-hasChildren .link-title:after, .nestedMenu .link-hasChildren .link-title:after, .productList .link-hasChildren .link-title:after, .generalList .link-hasChildren .link-title:after{
+content: none!important;
+}
+@media (min-width: 51em){
+.productList .linkLevel_1>.link-title>span, .productList .linkLevel_2>.link-title>span, .generalList.menuLevel_1 .linkLevel_1>.link-title>span, .generalList .menuLevel_2 .linkLevel_2>.link-title>span, .productList .linkLevel_3>.link-title>span{
+display: none;
+}
+.generalList .link-hasChildren .link-title:after{
+content: "\25bc"!important;
+}
+.generalList li.is-expanded>.link-wrapper .link-hasChildren .link-title:after{
+content: "\25b2"!important;
+}
+.productList.menuLevel_3 >li.all-links, .productList .menuLevel_2 >li.all-links{display: none;}
+.productList.menuLevel_1 .link-wrapper {text-align: center;}
+.productList.menuLevel_2 .link-wrapper, .productList.menuLevel_3 .link-wrapper, .productList.menuLevel_4 .link-wrapper {text-align: left;}
+}
+.generalList li.all-links{display: none!important;}
+.nestedMenu-heading .off-text{font-size: 1.7em;line-height: 1;position: relative;top: 0.05em;}
+span.no-child{padding-left: 5px; font-size: 0.75rem;}
+
+/*Styles for accessories listing pagination*/
+.accessories-pagination{background: url(/ISS_Static/WW/css/themes/owv2/images/stripes-bg.png); clear: both; margin: 1em; padding: 10px; text-align: center;}
+.accessories-pagination ol{clear: both; margin: 0; padding: 0;}
+.accessories-pagination li{display: inline; list-style-type: none; padding: 0 10px; border-right: 1px solid #666;}
+.accessories-pagination li:last-child{border-right: 0;}
+.searchFilter-container{overflow: visible; min-height: 85px;}
+
+/*Fix for Bug 1132*/
+.configuratorItem .hmd {background:none; color:#009DD9;}
+
+/*Fix for Bug 1072*/
+.recommmendAccessory-add{width:25%;line-height:1em;text-align:right;}
+.recommmendAccessory-price{width:60%;line-height:1em;}
+@media (min-width:27em){
+.recommmendAccessory-add,.recommmendAccessory-price{width:auto;}
+}
+
+@media (min-width: 35em) and (max-width: 70em){
+  .footer-navigation-links-list:nth-child(3){clear:both;}
+}
+
+/*Fix for Bug  1169*/
+@media (max-width: 32em) {
+.only-allow-small-pricingSummary .pricingSummary-priceList-label { clear:left; }
+.only-allow-small-pricingSummary .pricingSummary-priceList-value { clear:right; }
+}
+
+/*FP1871*/
+.bar_3-offCanvas-heading>.icon {float:none;}
+#facet-area .bar_3-offCanvas-heading>.short-label {display:none;}
+@media (max-width: 60em) {
+	#facet-area .bar_3-offCanvas-heading>.long-label {display:none;}
+	#facet-area .bar_3-offCanvas-heading>.short-label {display:inline;}
+
+	/*FP2150*/
+	.notifyme-btn{margin-bottom:20px;}
+	.tabbedBrowse-productListing-button-container.button-second .notifyme-btn{margin-bottom:0;}
+}
+
+.contactList .linkList-itemAlternate{word-wrap:break-word;}
+
+.lt-ie10 .generalList .link-wrapper{width:auto!important;}
+
+/*Bug 1037*/
+.js .countrySelector-wrapper{width: 28em;}
+
+/*FP 1887*/
+.calloutBox-item .calloutBox-item-image{text-align:center;}
+.calloutBox-item .calloutBox-item-image img{max-width:100%;border:none;}
+
+/*FP1755*/
+.pricingSummary-expressShip{background:#D8EFF9;padding:0.375em;border:1px solid #B8E3F4;margin:1em 0 0 0;}
+.pricingSummary-expressShip:empty{background:transparent;border-color:transparent;visibility:hidden;}
+.pricingSummary-expressShip .rci-esm,.pricingSummary-expressShip .rci-msg{font-size:.9em;text-align:center;line-height:1em;padding:.5em 0;}
+.pricingSummary-expressShip .pricingSummary-expressShip-info{font-size:0.85em;line-height:1em;text-align:center;}
+
+/*FP2024*/
+.seriesListings-item,.seriesListings-media{position:relative;}
+.seriesListings .touch-icon{
+background: url(http://www.lenovo.com/images/OneWebImages/Series/touch-icon-blue.png)no-repeat 0 0;
+width: 30px;
+height: 30px;
+position: absolute;
+top: 85px;
+left:15%;
+}
+@media (min-width: 48em){
+.seriesListings .touch-icon{left:1em;}
+}
+
+/*FP2044*/
+.image-label{
+position:absolute;top:2.5em;left:.98em;}
+.image-label .content{
+	width: auto;
+	background: #ee3124;
+	color: #fff;
+	padding: 0 0 0 .5em;
+	float:left;
+	font-family:lenovo-do-medium,Arial,sans-serif;
+	font-size:.9em;
+	height:24px;
+	overflow:hidden;
+}
+
+.ribbon-rgt{
+	float:left;
+	content: "";
+	width:.2em;
+	bottom:0;
+	border: .8em solid #ee3124;
+	border-left-width: .75em;
+	border-right-color:transparent;
+}
+
+.ribbon-bot{
+	background:url(http://www.lenovo.com/images/OneWebImages/Series/ribbon.png)no-repeat;
+	clear:both;
+	float:left;
+	width:20px;
+	height:20px;
+}
+
+/*Fix for Bug 1364*/
+.compareTable-addRemoveItems{min-width: 10.2em;}
+
+/*Fix for Bug 1367*/
+.offCanvas-closeOverlay{display: none;}
+
+/* JDA BZ 34438 */
+#dimmerlayer { position:absolute;
+       left: 0px;
+       top: 0px;
+       background-color: black;
+       filter: alpha (opacity=50);
+       -moz-opacity: 0.5;
+       opacity: 0.5;
+       display: none;
+       z-index: 198;
+}
+#gaugelayer { display:none;
+      position:absolute;
+      left:0px;
+      top:0px;
+      z-index: 199;
+}
+
+/*Faceted browse sort dropdown*/
+.sort-criteria-wrapper{display:block; background: url("/ISS_Static/WW/css/themes/owv2/images/stripes-bg.png"); padding:0.3em 0 0.3em 1em; z-index:1;border-bottom:1px solid #bbb;}
+.sort-criteria-wrapper select{border-radius:0.2em; border:1px solid #adadad; padding:0.2em; border-radius:0.3em;}
+.sort-criteria-title{float:left; font-size:0.8em; margin:0.2em 0;}
+
+/*For Sidebar Navigation*/
+.expandableHeading-is-expanded.no-series:before, .expandableHeading.no-series:before{content: none;}
+
+/*Fix for Bug 1385*/
+@media (min-width: 64.81em){
+.subseriesHeader {
+background-size: 100% 50%;
+}
+}
+
+/*Fix for Bug 1419*/
+.bar_2, .bar_3 { -webkit-transform:none; transform:none;}
+
+/*FP2079*/
+.checkoutInfoTxt{clear:both;padding:0 22px;font-size:.9em;}
+@media (min-width: 47em){
+.checkoutInfoTxt{padding:0;}
+}
+
+/*Fix for Bug 1380 */
+@media (min-width: 32em){
+	.seriesListings-footer .seriesListings-expandableContent-features.is-visuallyhidden {
+		overflow: initial !important;
+		position: initial !important;
+		margin: 0 !important;
+		width: 100%;
+		height: 100%;
+	}	
+}
+/*Bug 1496 / 1511 */
+@media (min-width: 32em){
+	.lengthy-final-priceText{font-size:2em}
+}
+
+/*FP2170*/
+.mediaGallery-productDescription-body ul{padding-left: 15px;}
+
+/*Bugzilla #1606 */
+div#reviewsPressquotes h2 {font-weight: bold;}
+div#reviewsPressquotes ul {padding: 1em 0 0;list-style: none;}
+div#reviewsPressquotes ul img {max-width: 100%;}
+
+.SystemXLinks a{display: block;font-size:.8em;padding:.1em 0 .1em 1.6em;background:url("http://www.lenovo.com/images/icons/icon-systemx.png") no-repeat 0 0;}
+.SystemXLinks a.link-tour{background-position:0 -28px;}
+.SystemXLinks a.link-html{background-position:0 -54px;}
+
+/*FP2171 Search/Facet Pages*/
+ul.search-productListing-bundle-list{padding-left: 15px; font-weight: bold;}
+ul.search-productListing-bundle-list li{font-size: 0.75rem; list-style-type: disc;}
+
+.specsLink{
+     margin-left:2em;
+}
+
+.specsLink:hover {
+    text-decoration: underline;
+}
+.specsLink, .tooltip-toggle {
+    color: #009DD9;
+    cursor: pointer;
+}
+
+/*BZ1664 */
+div#mastheadPageTitleMessaging {
+  position: relative;
+  top: 20px;
+  left: 0;
+}
+
+/*Breadcrumb alignment in accessories pages*/
+.breadcrumb-wrapper h1.mastheadCrumbLocation{display: inline-block;}
+
+/*FP2078*/
+.seriesListings-review-container{min-height:34px;}
+.seriesListings-review-container .reevoomark_badge{margin:0 auto;}
+.subseriesHeader .reviews > div{padding-bottom:1em;}
+
+#cmpoverlaytable .imgdiv img {max-width: 100%;}

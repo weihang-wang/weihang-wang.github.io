@@ -1,0 +1,159 @@
+/**
+ * Sends data to an url on the server
+ * The data can be any javascript data type
+ *
+ * @param   url     The url to which the data will be sent
+ * @param obj       The data to send
+ * @callback        Optional callback function which
+ *              will be called when the data arrived
+ */
+
+function sendMessage(url, obj, callback)
+{
+    var nm_script = document.createElement("SCRIPT");
+    if( url.indexOf("?") == -1 ) {
+        url += "?";
+    } else {
+        url += "&";
+    }
+    url += "rand=" + Math.random();
+    url += "&nm_input_data=" + encodeURIComponent(json_encode(obj));
+
+    if( typeof(callback) == "function" ) {
+      if(nm_script.addEventListener){
+        nm_script.addEventListener("load", callback, false);
+      } else{
+        nm_script.onreadystatechange = function(e){
+          if(this.readyState=="loaded"){
+            callback();
+            nm_script = null;
+          }
+        };
+      }
+    }
+
+    // url max size = 2000 characters
+    nm_script.setAttribute('src', url);
+    document.getElementsByTagName("head")[0].appendChild(nm_script);
+}
+
+/**
+ * Functions for working with client-side cookies
+ */
+function nm_createCookie(name,value,days,domain) {
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime()+(days*24*60*60*1000));
+        var expires = "; expires="+date.toGMTString();
+    }
+    else var expires = "";
+    if (domain) {
+      var sDomainName = "; domain="+domain;
+    }
+    else var sDomainName = "";
+    document.cookie = name+"="+value+sDomainName+expires+"; path=/";
+}
+
+function nm_readCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+
+function nm_eraseCookie(name) {
+    nm_createCookie(name,"",-1);
+}
+
+/**
+ * Document readyness
+ */
+(function () {
+    var fn = function() {window.nmDocReady=1;};
+    if (window.addEventListener){ 
+        window.addEventListener('load', fn, false); 
+    } else if (window.attachEvent){ 
+        window.attachEvent('onload', fn); 
+    }
+})();/**
+ * Encodes an object according the json standard
+ * An equivalent exists in php 5.2.0 and later
+ *
+ * An object can be serialized in javascript to be
+ * deserialized in php using this function
+ *
+ * @param   expr        The expression to serialize. Can be
+ *                      any javascript type.
+ * @return  The json string representation of the object
+ */
+function json_encode(expr)
+{
+    var str = ''; // the json string representation of the variable
+
+    switch(typeof(expr)) {
+        case "object":
+            if(expr==null) {
+                str = "null";
+
+            } else if(expr.constructor==Date) {
+                str = "\"" + expr.getFullYear() + "-" +
+                    String(exp.getMonth()+100).substr(1) + "-" +
+                    String(exp.getDate()+100).substr(1) + "T" +
+                    exp.toTimeString().substr(0,8) + "\"";
+
+            } else if(expr.constructor==Array) {
+                var tmp = [];
+                for(var i=0; i<expr.length; i++) {
+                    if(s=json_encode(expr[i]))
+                        tmp.push(s);
+                }
+                str = "[" + tmp.join(",") + "]";
+
+            } else {
+                var item, tmp=[];
+                for(item in expr) {
+                    if(expr.hasOwnProperty(item))
+                        tmp.push(json_encode(item) + ":" + json_encode(expr[item]));
+                }
+                str = "{" + tmp.join(",") + "}";
+            }
+            break;
+        case "function":
+            break;
+        case "boolean":
+            str = String(expr);
+            break;
+        case "number":      // infinite numbers are set to null
+            str = isFinite(expr) ? String(expr) : "null";
+            break;
+        case "string":
+            str = "\"" + expr.replace(/[\x00-\x1f\\"]/g, function($0, $1) {
+                return "\\u" + String(10000+String($1).charCodeAt().toString(16)).substr(1);}) + "\"";
+            break;
+        default:
+    }
+
+    return str;
+}
+
+/**
+ * Decodes a string (encoded using json_encode) into the original value
+ * This can be any javascript type
+ *
+ * @param   str     The string to deserialize.
+ * @return  The javascript representation of the object or value
+ */
+function json_decode(str)
+{
+    return JSON.parse(str);
+}
+// JavaScript Document
+function nm_getReferer() {
+	return document.referrer;
+}var dPixelRatio = (window.devicePixelRatio==undefined) ? 1 : window.devicePixelRatio;
+sendMessage('http://com-lenovo.netmng.com/?function=browser_check&vid=jqt5bq9k71idt&browserPixelRatio=' + dPixelRatio + '&browserWidth=' + screen.width + '&browserHeight=' + screen.height +'', '', null);
+sendMessage('http://com-lenovo.netmng.com/?function=getReferer&referer=' + escape(nm_getReferer()), '', null);
