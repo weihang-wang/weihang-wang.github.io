@@ -1,0 +1,46 @@
+/* Galleria LenovoRWD Theme (2013-Oct-10 - JRL) */
+
+#galleria-loader { height: 1px !important; }
+
+.galleria-container { background: transparent; overflow: hidden; position: relative; }
+.galleria-container img { -moz-user-select: none; -webkit-user-select: none; -o-user-select: none; }
+
+.galleria-info, .galleria-tooltip { display: none !important; }
+
+.galleria-stage { border: 0; bottom: 75px; left: 0; overflow: hidden; position: absolute; right: 0; top: 0; z-index: 0; }
+.galleria-stage .galleria-loader { background-color: #000; background-color: rgba(0, 0, 0, 0.6); width: 20px; height: 20px; position: absolute; top: 10px; right: 10px; z-index: 2; display: none; background-image: url("/ISS_Static/WW/site/scripts/galleria/themes/lenovopowered/classic-loader.gif"); background-position: 2px 2px; background-repeat: no-repeat; }
+.galleria-stage .galleria-image-nav { height: 36px; left: 0; margin-top: -18px; position: absolute; top: 50%; width: 100%; }
+.galleria-stage .galleria-image-nav .galleria-image-nav-left { background-color: transparent; cursor: pointer; height: 43px; left: 20px; position: absolute; width: 43px; z-index: 99; background-image: url("//www.lenovo.com/images/icons/arrows/left-arrow-dark-43x43.png"); background-position: 0 0; background-repeat: no-repeat; }
+.galleria-stage .galleria-image-nav .galleria-image-nav-right { background-color: transparent; cursor: pointer; height: 43px; right: 20px; position: absolute; width: 43px; z-index: 99; background-image: url("//www.lenovo.com/images/icons/arrows/right-arrow-dark-43x43.png"); background-position: 0 0; background-repeat: no-repeat; }
+
+.galleria-thumbnails-container { bottom: 0; height: 80px; left: 0; margin: 0; position: absolute; right: 0; z-index: 2; }
+.galleria-thumbnails-container .galleria-thumb-nav-left { border: 1px solid #fff; bottom: 2px; cursor: pointer; display: none; left: 0; position: absolute; top: 9px; width: 20px; background: #cccccc; background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eeeeee), color-stop(100%, #cccccc)), #cccccc; background: -webkit-linear-gradient(top, #eeeeee, #cccccc), #cccccc; background: -moz-linear-gradient(top, #eeeeee, #cccccc), #cccccc; background: -o-linear-gradient(top, #eeeeee, #cccccc), #cccccc; background: -ms-linear-gradient(top, #eeeeee, #cccccc), #cccccc; background: linear-gradient(top, #eeeeee, #cccccc), #cccccc; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0); }
+.galleria-thumbnails-container .galleria-thumb-nav-left > span { background-color: transparent; display: block; height: 100%; overflow: hidden; width: 100%; background-image: url("/ISS_Static/WW/site/scripts/galleria/themes/lenovopowered/thumb_nav_arrows.png"); background-position: -3px center; background-repeat: no-repeat; }
+.galleria-thumbnails-container .galleria-thumb-nav-right { border: 1px solid #fff; bottom: 2px; cursor: pointer; display: none; position: absolute; right: 0; top: 9px; width: 20px; background: #cccccc; background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eeeeee), color-stop(100%, #cccccc)), #cccccc; background: -webkit-linear-gradient(top, #eeeeee, #cccccc), #cccccc; background: -moz-linear-gradient(top, #eeeeee, #cccccc), #cccccc; background: -o-linear-gradient(top, #eeeeee, #cccccc), #cccccc; background: -ms-linear-gradient(top, #eeeeee, #cccccc), #cccccc; background: linear-gradient(top, #eeeeee, #cccccc), #cccccc; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0); }
+.galleria-thumbnails-container .galleria-thumb-nav-right > span { background-color: transparent; display: block; height: 100%; overflow: hidden; width: 100%; background-image: url("/ISS_Static/WW/site/scripts/galleria/themes/lenovopowered/thumb_nav_arrows.png"); background-position: -26px center; background-repeat: no-repeat; }
+.galleria-thumbnails-container .disabled { cursor: default !important; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=50); filter: alpha(opacity=50); -moz-opacity: 0.5; opacity: 0.5; }
+.galleria-thumbnails-container .disabled > span { background-color: transparent !important; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=50); filter: alpha(opacity=50); -moz-opacity: 0.5; opacity: 0.5; }
+.galleria-thumbnails-container .galleria-thumbnails-list { height: 100%; background-color: transparent; }
+.galleria-thumbnails-container.galleria-carousel .galleria-thumbnails-list { margin: 0 22px 0 23px; }
+.galleria-thumbnails-container.galleria-carousel .galleria-thumb-nav-left, .galleria-thumbnails-container.galleria-carousel .galleria-thumb-nav-right { display: block; }
+
+.galleria-thumbnails .galleria-image { cursor: pointer; height: 80px; float: left; position: relative; text-align: center; width: 122px; }
+.galleria-thumbnails .galleria-image > span { background: #fff; border: 1px solid #a7a7a7; display: block; height: 67px; margin: 10px 2px 2px 2px; overflow: hidden; position: relative; width: 117px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+.galleria-thumbnails .galleria-image > span > img { height: 65px !important; left: 0 !important; top: 0 !important; width: 115px !important; z-index: 0; }
+.galleria-thumbnails .galleria-image > span > img.icon { height: 31px !important; left: 50% !important; margin-left: -16px !important; margin-top: -16px !important; position: absolute !important; top: 50% !important; width: 31px !important; z-index: 1; }
+.galleria-thumbnails .galleria-image.active { background-color: transparent; cursor: default !important; background-image: url("//www.lenovo.com/images/OneWebImages/Common/thumb-selector.png"); background-position: 0 0; background-repeat: no-repeat; }
+
+.notouch .galleria-image-nav-left:hover, .notouch .galleria-image-nav-right:hover { -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=100); filter: alpha(opacity=100); -moz-opacity: 1; opacity: 1; }
+.notouch .galleria-thumb-nav-left:hover, .notouch .galleria-thumb-nav-right:hover { -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=100); filter: alpha(opacity=100); -moz-opacity: 1; opacity: 1; }
+.notouch .galleria-thumbnails-container .disabled:hover { -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=50); filter: alpha(opacity=50); -moz-opacity: 0.5; opacity: 0.5; }
+.notouch .galleria-thumbnails-container .disabled:hover > span { -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=50); filter: alpha(opacity=50); -moz-opacity: 0.5; opacity: 0.5; }
+
+.touch .galleria-image-nav-left:active, .touch .galleria-image-nav-right:active { -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=100); filter: alpha(opacity=100); -moz-opacity: 1; opacity: 1; }
+.touch .galleria-thumb-nav-left:active, .touch .galleria-thumb-nav-right:active { -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=100); filter: alpha(opacity=100); -moz-opacity: 1; opacity: 1; }
+
+.noscript .image { float: left; height: 65px; margin: 5px; overflow: hidden; width: 115px; }
+.noscript .image img { border: 0; height: 65px; width: 115px; }
+
+/*To fix the cutt off for first image in gallery*/
+.subseries-gallery{ background-size: 100% !important; }
+.galleria-image{height:100%;}
