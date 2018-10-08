@@ -1,4 +1,4 @@
-useOriginal = 0
+useOriginal = 1
 baseURL = "http://weihang-wang.github.io/cse705/project"
 
 def getConfig():
