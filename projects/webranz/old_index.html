@@ -1,0 +1,76 @@
+<html>
+<head>
+	<title>WebRanz</title>
+</head>
+<body>
+<font face='Times New Roman'>
+<h1>
+WebRanz: Web Page Randomization For Better Advertisement Delivery and Web-Bot Prevention
+<hr>
+</h1>
+<font size=4>
+
+<font size=5><b>Resources</b></font><br/>
+<a href=#tba>Download Source</a> &nbsp;&nbsp;&nbsp; <a href=#tba>Download VM</a> 
+<br/><br/>
+
+<font size=5><b>Try Now?</b></font><br/>
+We prepared a pre-randomized web-site for you. It is a main page of the "Yahoo.com".
+We saved a snapshot of the web page and randomized it. Then, uploaded the web page along with the original web page.
+We recommend you to check the website with "Firefox" and "Adblock Plus". 
+The randomized web page will show the advertise in the center of the web page even though Adblock Plus is enabled, while 
+the original web page's advertisements are removed by Adblock Plus.
+<br/><br/>
+<a href=http://50.129.86.149:8080/WebRanz/websites/ori/showcase/Yahoo.html target=_blank1>[1] Original Web Page: You will <b><font color=red>NOT</font></b> see the ads with Adblock Plus</a><br/>
+<a href=http://50.129.86.149:8080/WebRanz/websites/rand/showcase/Yahoo.html target=_blank2>[2] Randomized Web Page: You <b><font color=red>WILL SEE</font></b> the ads even <b><font color=red>WITH</font></b> Adblock Plus</a><br/>
+<br/>
+Still its too complex? Check out the next section "What is WebRanz?"
+<br/><br/>
+
+<font size=5><b>What is WebRanz?</b></font><br/>
+WebRanz is a tool that randomizes web pages so that the contents of the randomized 
+web pages can be protected and preserved. For example, the advertisements in the randomized web pages 
+are not removed by Adblockers such as AdBlock Plus. In addition, it naturally protects the web pages 
+from web bot attacks, as most web bots rely on predefined id and classnames to locate specific DOM elements.
+For example, Figure 1 shows a running example. 
+It shows three screen shots of a web-site without Adblock Plus and with Adblock Plus, 
+as well as randomized website with Adblock Plus. Our high-level goal is to preserve all the visible elements and their layouts
+including advertisements against Adblock Plus by randomizing the web pages.
+The red boxes represent the advertisements and their places. The red arrows point the Adblock Plus icons. 
+The gray icon means it is disabled, the red icon means it is enabled and preventing advertisements.<br/>
+<br/>
+
+<img src=fig1.png><br />
+<b>Figure 1. Screen shots side by side.</b><br/>
+<br/>
+As shown in Figure 1, the first case which is the original web page without Adblock Plus shows two advertisements.
+In the second case, the original web page with Adblock Plus, there is no advertisements showing as they are blocked by Adblock Plus.
+In the last case, the randomized web page with Adblock Plus, all advertisements are shown even with Adblock Plus due to our 
+randomizations.<br />
+
+
+
+<br /><br />
+<font size=5><b>How it works?</b></font><br/>
+WebRanz analyzes web pages and randomizes id and class names as well as CSS contents as 
+any of these names can be used to locate or identify a specific element on a web page. Figure 2 shows an example of such randomization on HTML code. On the left side, the code of original web page is shown. 
+On the right side, the randomized web page is shown. The red boxes are ids and classnames. On the left side, the first red box contains "header", "logo", and "tabs", which are transformed into "rand_id_29099", "rand_class_892", and "rand_class_27487" respectively.
+<br/><br/>
+<img src=fig2.png><br />
+<b>Figure 2. An example source code of a randomized web page.</b><br/>
+<br/>
+By randomizing the ids, classnames, and urls, it can protect web contents from other plug-ins which try to locate or identify certain elements in web pages.
+However, benign accesses to DOM objects can be also affected. To handle that, WebRanz dynamically maintains a mapping between randomized ids/classnames and original ids/classnames and translates them at runtime.
+
+<p>
+</p>
+<br/><br/><br/><br/><br/>
+
+
+
+
+
+</font>
+</font>
+</body>
+</html>
