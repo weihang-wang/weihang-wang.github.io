@@ -56,6 +56,7 @@ body {
 
 ol,
 ul {
+  left-margin: 8px; 
   padding: 8px; 
   /* list-style: none; */
 }
