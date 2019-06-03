@@ -249,7 +249,7 @@ h1, h2, h3, h4, h5 {
 h4.widget-title {
   font-size: 26px;
   font-family: 'robotobold';
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 h3 {
@@ -453,9 +453,9 @@ h3.profile-title {
   z-index: 4;
 }
 .welcome-text h2 {
-  font-size: 32px;
+  font-size: 26px;
   font-family: 'robotobold';
-  color: #666;
+  /*color: #666;*/
   margin-bottom: 20px;
 }
 .welcome-text h5 {
