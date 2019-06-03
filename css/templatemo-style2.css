@@ -56,7 +56,8 @@ body {
 
 ol,
 ul {
-  list-style: none;
+  padding: 8px; 
+  /* list-style: none; */
 }
 
 blockquote,
