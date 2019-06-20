@@ -317,14 +317,14 @@ h3.profile-title {
 }
 
 .main-navigation {
-  margin: 10px 0;
+  margin: 30px 0;
 }
 .main-navigation li {
   display: block;
   vertical-align: middle;
 }
 .main-navigation li a {
-  padding: 15px 30px;
+  padding: 15px 20px;
   display: block;
   color: white;
   font-size: 16px;
