@@ -1,4 +1,6 @@
 function myFunction() {
+  
+
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
@@ -28,6 +30,15 @@ function openpage(evt, pagename) {
 	if( evt ) {
 		evt.currentTarget.className += " active";
 	}
+	
+	var scr = window.matchMedia("(max-width: 600px)")
+    if (scr.matches) { // If media query matches
+	    // phone
+		myFunction();
+	} else {
+		// normal
+	}
+	
 }
 
 
